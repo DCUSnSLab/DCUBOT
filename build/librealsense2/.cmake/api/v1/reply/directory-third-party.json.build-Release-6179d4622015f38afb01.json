@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "third-party/json/build",
+		"source" : "/home/dcubot/DCUBOT/build/librealsense2/third-party/json"
+	}
+}

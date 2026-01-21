@@ -1,0 +1,322 @@
+[35m[1mConsolidate compiler generated dependencies of target fw[0m
+[35m[1mConsolidate compiler generated dependencies of target rs-embed[0m
+[35m[1mConsolidate compiler generated dependencies of target realsense-file[0m
+[35m[1mConsolidate compiler generated dependencies of target rsutils[0m
+[  2%] Built target libcurl
+[  2%] Built target fw
+[  3%] Built target rs-embed
+[  7%] Built target realsense-file
+[ 12%] Built target rsutils
+[35m[1mConsolidate compiler generated dependencies of target realsense2[0m
+[ 42%] Built target realsense2
+[35m[1mConsolidate compiler generated dependencies of target rs-save-to-disk[0m
+[35m[1mConsolidate compiler generated dependencies of target rs-callback[0m
+[35m[1mConsolidate compiler generated dependencies of target rs-hello-realsense[0m
+[35m[1mConsolidate compiler generated dependencies of target rs-capture[0m
+[35m[1mConsolidate compiler generated dependencies of target rs-software-device[0m
+[35m[1mConsolidate compiler generated dependencies of target realsense2-gl[0m
+[ 43%] Built target rs-callback
+[ 45%] Built target rs-software-device
+[ 45%] Built target rs-hello-realsense
+[ 46%] Built target rs-save-to-disk
+[ 48%] Built target rs-capture
+[35m[1mConsolidate compiler generated dependencies of target rs-multicam[0m
+[35m[1mConsolidate compiler generated dependencies of target rs-labeled-pointcloud[0m
+[35m[1mConsolidate compiler generated dependencies of target rs-pointcloud[0m
+[35m[1mConsolidate compiler generated dependencies of target rs-align[0m
+[35m[1mConsolidate compiler generated dependencies of target rs-align-advanced[0m
+[ 51%] Built target realsense2-gl
+[ 53%] Built target rs-multicam
+[ 56%] Built target rs-labeled-pointcloud
+[ 57%] Built target rs-pointcloud
+[ 59%] Built target rs-align
+[35m[1mConsolidate compiler generated dependencies of target rs-sensor-control[0m
+[35m[1mConsolidate compiler generated dependencies of target rs-depth[0m
+[35m[1mConsolidate compiler generated dependencies of target rs-color[0m
+[35m[1mConsolidate compiler generated dependencies of target rs-measure[0m
+[ 61%] Built target rs-align-advanced
+[35m[1mConsolidate compiler generated dependencies of target rs-distance[0m
+[ 61%] Built target rs-depth
+[ 61%] Built target rs-color
+[ 62%] Built target rs-sensor-control
+[ 62%] Built target rs-distance
+[35m[1mConsolidate compiler generated dependencies of target rs-post-processing[0m
+[ 64%] Built target rs-measure
+[35m[1mConsolidate compiler generated dependencies of target rs-gl[0m
+[35m[1mConsolidate compiler generated dependencies of target rs-motion[0m
+[35m[1mConsolidate compiler generated dependencies of target rs-record-playback[0m
+[35m[1mConsolidate compiler generated dependencies of target rs-hdr[0m
+[ 66%] Built target rs-post-processing
+[35m[1mConsolidate compiler generated dependencies of target rs-on-chip-calib[0m
+[ 67%] Built target rs-gl
+[ 69%] Built target rs-record-playback
+[ 71%] Built target rs-motion
+[35m[1mConsolidate compiler generated dependencies of target rs-eth-config[0m
+[ 73%] Built target rs-hdr
+[ 73%] Built target rs-on-chip-calib
+[35m[1mConsolidate compiler generated dependencies of target rs-embedded-filters[0m
+[35m[1mConsolidate compiler generated dependencies of target rs-convert[0m
+[35m[1mConsolidate compiler generated dependencies of target rs-enumerate-devices[0m
+[35m[1mConsolidate compiler generated dependencies of target rs-fw-logger[0m
+[ 73%] Built target rs-eth-config
+[35m[1mConsolidate compiler generated dependencies of target rs-terminal[0m
+[ 74%] Built target rs-convert
+[ 74%] Built target rs-embedded-filters
+[35m[1mConsolidate compiler generated dependencies of target rs-record[0m
+[ 75%] Built target rs-enumerate-devices
+[ 76%] Built target rs-fw-logger
+[ 77%] Built target rs-terminal
+[35m[1mConsolidate compiler generated dependencies of target rs-data-collect[0m
+[35m[1mConsolidate compiler generated dependencies of target rs-fw-update[0m
+[35m[1mConsolidate compiler generated dependencies of target realsense-viewer[0m
+[ 77%] Built target rs-record
+[35m[1mConsolidate compiler generated dependencies of target rs-depth-quality[0m
+[35m[1mConsolidate compiler generated dependencies of target rs-rosbag-inspector[0m
+[ 78%] Built target rs-data-collect
+[ 79%] Built target rs-fw-update
+[ 79%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/model-views.cpp.o[0m
+[ 79%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/notifications.cpp.o[0m
+[ 79%] [32mBuilding CXX object tools/benchmark/CMakeFiles/rs-benchmark.dir/rs-benchmark.cpp.o[0m
+[ 79%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/calibration-model.cpp.o[0m
+[ 79%] [32mBuilding CXX object tools/rosbag-inspector/CMakeFiles/rs-rosbag-inspector.dir/rs-rosbag-inspector.cpp.o[0m
+[ 79%] [32mBuilding CXX object examples/align-gl/CMakeFiles/rs-align-gl.dir/rs-align-gl.cpp.o[0m
+[ 79%] [32mBuilding CXX object examples/align-gl/CMakeFiles/rs-align-gl.dir/__/__/third-party/imgui/imgui.cpp.o[0m
+[ 79%] [32mBuilding CXX object examples/align-gl/CMakeFiles/rs-align-gl.dir/__/__/third-party/imgui/imgui_draw.cpp.o[0m
+[ 79%] [32mBuilding C object tools/benchmark/CMakeFiles/rs-benchmark.dir/__/__/third-party/glad/glad.c.o[0m
+[ 79%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/notifications.cpp.o[0m
+[ 79%] [32mBuilding CXX object tools/benchmark/CMakeFiles/rs-benchmark.dir/__/__/third-party/rsutils/include/rsutils/easylogging/elpp-init.cpp.o[0m
+[ 80%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/viewer.cpp.o[0m
+[ 80%] [32m[1mLinking CXX executable ../../Release/rs-benchmark[0m
+[ 80%] Built target rs-benchmark
+[ 80%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/ux-window.cpp.o[0m
+[ 80%] [32mBuilding CXX object examples/align-gl/CMakeFiles/rs-align-gl.dir/__/__/third-party/imgui/imgui_impl_glfw.cpp.o[0m
+[ 81%] [32mBuilding CXX object tools/rosbag-inspector/CMakeFiles/rs-rosbag-inspector.dir/__/__/third-party/imgui/imgui.cpp.o[0m
+[ 82%] [32mBuilding CXX object examples/align-gl/CMakeFiles/rs-align-gl.dir/__/__/third-party/imgui/imgui_impl_opengl3.cpp.o[0m
+[ 82%] [32mBuilding CXX object examples/align-gl/CMakeFiles/rs-align-gl.dir/__/__/third-party/imgui/imgui_tables.cpp.o[0m
+[ 82%] [32mBuilding CXX object examples/align-gl/CMakeFiles/rs-align-gl.dir/__/__/third-party/imgui/imgui_widgets.cpp.o[0m
+[ 83%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/calibration-model.cpp.o[0m
+[ 83%] [32mBuilding CXX object examples/align-gl/CMakeFiles/rs-align-gl.dir/__/__/third-party/imgui/realsense_imgui.cpp.o[0m
+[ 83%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/ux-alignment.cpp.o[0m
+[ 83%] [32mBuilding CXX object examples/align-gl/CMakeFiles/rs-align-gl.dir/__/__/third-party/rsutils/include/rsutils/easylogging/elpp-init.cpp.o[0m
+[ 83%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/opengl3.cpp.o[0m
+[ 84%] [32m[1mLinking CXX executable ../../Release/rs-align-gl[0m
+[ 84%] Built target rs-align-gl
+[ 84%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/rs-config.cpp.o[0m
+[ 84%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/os.cpp.o[0m
+[ 85%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/fw-update-helper.cpp.o[0m
+[ 85%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/metadata-helper.cpp.o[0m
+[ 85%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/output-model.cpp.o[0m
+[ 85%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/skybox.cpp.o[0m
+[ 85%] [32mBuilding CXX object tools/rosbag-inspector/CMakeFiles/rs-rosbag-inspector.dir/__/__/third-party/imgui/imgui_draw.cpp.o[0m
+[ 85%] [32mBuilding CXX object tools/rosbag-inspector/CMakeFiles/rs-rosbag-inspector.dir/__/__/third-party/imgui/imgui_impl_glfw.cpp.o[0m
+[ 85%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/viewer.cpp.o[0m
+[ 85%] [32mBuilding CXX object tools/rosbag-inspector/CMakeFiles/rs-rosbag-inspector.dir/__/__/third-party/imgui/imgui_impl_opengl3.cpp.o[0m
+[ 85%] [32mBuilding CXX object tools/rosbag-inspector/CMakeFiles/rs-rosbag-inspector.dir/__/__/third-party/imgui/imgui_tables.cpp.o[0m
+[ 85%] [32mBuilding CXX object tools/rosbag-inspector/CMakeFiles/rs-rosbag-inspector.dir/__/__/third-party/imgui/imgui_widgets.cpp.o[0m
+[ 86%] [32mBuilding CXX object tools/rosbag-inspector/CMakeFiles/rs-rosbag-inspector.dir/__/__/third-party/imgui/realsense_imgui.cpp.o[0m
+[ 86%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/measurement.cpp.o[0m
+[ 87%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/on-chip-calib.cpp.o[0m
+[ 87%] [32mBuilding C object tools/rosbag-inspector/CMakeFiles/rs-rosbag-inspector.dir/__/__/third-party/tinyfiledialogs/tinyfiledialogs.c.o[0m
+[ 87%] [32mBuilding CXX object tools/rosbag-inspector/CMakeFiles/rs-rosbag-inspector.dir/__/__/third-party/rsutils/include/rsutils/easylogging/elpp-init.cpp.o[0m
+[ 87%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/d500-on-chip-calib.cpp.o[0m
+[ 87%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/updates-model.cpp.o[0m
+[ 87%] [32m[1mLinking CXX executable ../../Release/rs-rosbag-inspector[0m
+[ 87%] Built target rs-rosbag-inspector
+[ 87%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/ux-window.cpp.o[0m
+[ 87%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/option-model.cpp.o[0m
+[ 87%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/device-model.cpp.o[0m
+[ 88%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/ux-alignment.cpp.o[0m
+[ 88%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/subdevice-model.cpp.o[0m
+[ 88%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/processing-block-model.cpp.o[0m
+[ 88%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/opengl3.cpp.o[0m
+[ 89%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/rs-config.cpp.o[0m
+[ 89%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/os.cpp.o[0m
+[ 89%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/fw-update-helper.cpp.o[0m
+[ 89%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/metadata-helper.cpp.o[0m
+[ 89%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/output-model.cpp.o[0m
+[ 89%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/stream-model.cpp.o[0m
+[ 89%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/post-processing-filters.cpp.o[0m
+[ 89%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/labeled-point-cloud-utilities.cpp.o[0m
+[ 89%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/dds-model.cpp.o[0m
+[ 90%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/hdr-model.cpp.o[0m
+[ 90%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/embedded-filter-model.cpp.o[0m
+[ 91%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/skybox.cpp.o[0m
+[ 91%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/sw-update/http-downloader.cpp.o[0m
+[ 91%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/measurement.cpp.o[0m
+[ 91%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/sw-update/dev-updates-profile.cpp.o[0m
+[ 91%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/on-chip-calib.cpp.o[0m
+[ 91%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/sw-update/versions-db-manager.cpp.o[0m
+[ 92%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/reflectivity/reflectivity.cpp.o[0m
+[ 92%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/utilities/imgui/wrap.cpp.o[0m
+[ 92%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/realsense-viewer.cpp.o[0m
+[ 92%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/third-party/imgui/imgui.cpp.o[0m
+[ 92%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/third-party/imgui/imgui_draw.cpp.o[0m
+[ 92%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/d500-on-chip-calib.cpp.o[0m
+[ 92%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/updates-model.cpp.o[0m
+[ 92%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/option-model.cpp.o[0m
+[ 92%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/third-party/imgui/imgui_impl_glfw.cpp.o[0m
+[ 93%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/device-model.cpp.o[0m
+[ 94%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/third-party/imgui/imgui_impl_opengl3.cpp.o[0m
+[ 94%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/subdevice-model.cpp.o[0m
+[ 94%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/processing-block-model.cpp.o[0m
+[ 94%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/stream-model.cpp.o[0m
+[ 94%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/third-party/imgui/imgui_tables.cpp.o[0m
+[ 94%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/third-party/imgui/imgui_widgets.cpp.o[0m
+[ 94%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/post-processing-filters.cpp.o[0m
+[ 95%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/labeled-point-cloud-utilities.cpp.o[0m
+[ 95%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/dds-model.cpp.o[0m
+[ 95%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/third-party/imgui/realsense_imgui.cpp.o[0m
+[ 95%] [32mBuilding C object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/third-party/glad/glad.c.o[0m
+[ 96%] [32mBuilding C object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/third-party/tinyfiledialogs/tinyfiledialogs.c.o[0m
+[ 96%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/graph-model.cpp.o[0m
+[ 96%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/embedded-filter-model.cpp.o[0m
+[ 96%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/third-party/implot/implot.cpp.o[0m
+[ 96%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/hdr-model.cpp.o[0m
+[ 96%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/sw-update/http-downloader.cpp.o[0m
+[ 97%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/sw-update/dev-updates-profile.cpp.o[0m
+[ 97%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/third-party/implot/implot_items.cpp.o[0m
+[ 97%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/sw-update/versions-db-manager.cpp.o[0m
+[ 97%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/reflectivity/reflectivity.cpp.o[0m
+[ 97%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/utilities/imgui/wrap.cpp.o[0m
+[ 97%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/rs-depth-quality.cpp.o[0m
+[ 97%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/depth-quality-model.cpp.o[0m
+[ 97%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/third-party/imgui/imgui_draw.cpp.o[0m
+[ 97%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/third-party/imgui/imgui_impl_glfw.cpp.o[0m
+[ 98%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/third-party/imgui/imgui.cpp.o[0m
+[ 98%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/third-party/imgui/imgui_impl_opengl3.cpp.o[0m
+[ 98%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/third-party/imgui/imgui_tables.cpp.o[0m
+[ 99%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/third-party/imgui/imgui_widgets.cpp.o[0m
+[ 99%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/third-party/imgui/realsense_imgui.cpp.o[0m
+[ 99%] [32mBuilding C object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/third-party/glad/glad.c.o[0m
+[ 99%] [32mBuilding C object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/third-party/tinyfiledialogs/tinyfiledialogs.c.o[0m
+[ 99%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/graph-model.cpp.o[0m
+[ 99%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/third-party/implot/implot.cpp.o[0m
+[100%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/third-party/implot/implot_items.cpp.o[0m
+[100%] [32m[1mLinking CXX executable ../../Release/realsense-viewer[0m
+[100%] Built target realsense-viewer
+[100%] [32m[1mLinking CXX executable ../../Release/rs-depth-quality[0m
+[100%] Built target rs-depth-quality
+-- Install configuration: "Release"
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/lib/librealsense2.so.2.57.5
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/lib/librealsense2.so.2.57
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/lib/librealsense2.so
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/include/librealsense2
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/include/librealsense2/rs_advanced_mode.hpp
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/include/librealsense2/h
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/include/librealsense2/h/rs_sensor.h
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/include/librealsense2/h/rs_frame.h
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/include/librealsense2/h/rs_eth_config.h
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/include/librealsense2/h/rs_safety_sensor.h
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/include/librealsense2/h/rs_option.h
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/include/librealsense2/h/rs_device.h
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/include/librealsense2/h/rs_advanced_mode_command.h
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/include/librealsense2/h/rs_config.h
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/include/librealsense2/h/rs_types.h
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/include/librealsense2/h/rs_context.h
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/include/librealsense2/h/rs_internal.h
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/include/librealsense2/h/rs_processing.h
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/include/librealsense2/h/rs_pipeline.h
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/include/librealsense2/h/rs_record_playback.h
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/include/librealsense2/rsutil.h
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/include/librealsense2/rs.hpp
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/include/librealsense2/hpp
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/include/librealsense2/hpp/rs_record_playback.hpp
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/include/librealsense2/hpp/rs_device.hpp
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/include/librealsense2/hpp/rs_internal.hpp
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/include/librealsense2/hpp/rs_context.hpp
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/include/librealsense2/hpp/rs_sensor.hpp
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/include/librealsense2/hpp/rs_options.hpp
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/include/librealsense2/hpp/rs_frame.hpp
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/include/librealsense2/hpp/rs_types.hpp
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/include/librealsense2/hpp/rs_export.hpp
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/include/librealsense2/hpp/rs_pipeline.hpp
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/include/librealsense2/hpp/rs_eth_config.hpp
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/include/librealsense2/hpp/rs_safety_sensor.hpp
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/include/librealsense2/hpp/rs_serializable_device.hpp
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/include/librealsense2/hpp/rs_processing.hpp
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/include/librealsense2/rs_advanced_mode.h
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/include/librealsense2/rs.h
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/lib/cmake/realsense2/realsense2Targets.cmake
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/lib/cmake/realsense2/realsense2Targets-release.cmake
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/lib/cmake/realsense2/realsense2Config.cmake
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/lib/cmake/realsense2/realsense2ConfigVersion.cmake
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/lib/pkgconfig/realsense2.pc
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/lib/librsutils.a
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/lib/librealsense-file.a
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/lib/librealsense2-gl.so.2.57.5
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/lib/librealsense2-gl.so.2.57
+-- Set runtime path of "/home/dcubot/DCUBOT/install/librealsense2/lib/librealsense2-gl.so.2.57.5" to ""
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/lib/librealsense2-gl.so
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/include/librealsense2-gl/rs_processing_gl.h
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/include/librealsense2-gl/rs_processing_gl.hpp
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/lib/cmake/realsense2-gl/realsense2-glTargets.cmake
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/lib/cmake/realsense2-gl/realsense2-glTargets-release.cmake
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/lib/cmake/realsense2-gl/realsense2-glConfig.cmake
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/lib/cmake/realsense2-gl/realsense2-glConfigVersion.cmake
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/lib/pkgconfig/realsense2-gl.pc
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/bin/rs-hello-realsense
+-- Set runtime path of "/home/dcubot/DCUBOT/install/librealsense2/bin/rs-hello-realsense" to ""
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/bin/rs-software-device
+-- Set runtime path of "/home/dcubot/DCUBOT/install/librealsense2/bin/rs-software-device" to ""
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/bin/rs-capture
+-- Set runtime path of "/home/dcubot/DCUBOT/install/librealsense2/bin/rs-capture" to ""
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/bin/rs-callback
+-- Set runtime path of "/home/dcubot/DCUBOT/install/librealsense2/bin/rs-callback" to ""
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/bin/rs-save-to-disk
+-- Set runtime path of "/home/dcubot/DCUBOT/install/librealsense2/bin/rs-save-to-disk" to ""
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/bin/rs-multicam
+-- Set runtime path of "/home/dcubot/DCUBOT/install/librealsense2/bin/rs-multicam" to ""
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/bin/rs-pointcloud
+-- Set runtime path of "/home/dcubot/DCUBOT/install/librealsense2/bin/rs-pointcloud" to ""
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/bin/rs-labeled-pointcloud
+-- Set runtime path of "/home/dcubot/DCUBOT/install/librealsense2/bin/rs-labeled-pointcloud" to ""
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/bin/rs-align
+-- Set runtime path of "/home/dcubot/DCUBOT/install/librealsense2/bin/rs-align" to ""
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/bin/rs-align-gl
+-- Set runtime path of "/home/dcubot/DCUBOT/install/librealsense2/bin/rs-align-gl" to ""
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/bin/rs-align-advanced
+-- Set runtime path of "/home/dcubot/DCUBOT/install/librealsense2/bin/rs-align-advanced" to ""
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/bin/rs-sensor-control
+-- Set runtime path of "/home/dcubot/DCUBOT/install/librealsense2/bin/rs-sensor-control" to ""
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/bin/rs-measure
+-- Set runtime path of "/home/dcubot/DCUBOT/install/librealsense2/bin/rs-measure" to ""
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/bin/rs-depth
+-- Set runtime path of "/home/dcubot/DCUBOT/install/librealsense2/bin/rs-depth" to ""
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/bin/rs-color
+-- Set runtime path of "/home/dcubot/DCUBOT/install/librealsense2/bin/rs-color" to ""
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/bin/rs-distance
+-- Set runtime path of "/home/dcubot/DCUBOT/install/librealsense2/bin/rs-distance" to ""
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/bin/rs-post-processing
+-- Set runtime path of "/home/dcubot/DCUBOT/install/librealsense2/bin/rs-post-processing" to ""
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/bin/rs-record-playback
+-- Set runtime path of "/home/dcubot/DCUBOT/install/librealsense2/bin/rs-record-playback" to ""
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/bin/rs-motion
+-- Set runtime path of "/home/dcubot/DCUBOT/install/librealsense2/bin/rs-motion" to ""
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/bin/rs-gl
+-- Set runtime path of "/home/dcubot/DCUBOT/install/librealsense2/bin/rs-gl" to ""
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/bin/rs-hdr
+-- Set runtime path of "/home/dcubot/DCUBOT/install/librealsense2/bin/rs-hdr" to ""
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/bin/rs-on-chip-calib
+-- Set runtime path of "/home/dcubot/DCUBOT/install/librealsense2/bin/rs-on-chip-calib" to ""
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/bin/rs-eth-config
+-- Set runtime path of "/home/dcubot/DCUBOT/install/librealsense2/bin/rs-eth-config" to ""
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/bin/rs-embedded-filters
+-- Set runtime path of "/home/dcubot/DCUBOT/install/librealsense2/bin/rs-embedded-filters" to ""
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/bin/rs-convert
+-- Set runtime path of "/home/dcubot/DCUBOT/install/librealsense2/bin/rs-convert" to ""
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/bin/rs-enumerate-devices
+-- Set runtime path of "/home/dcubot/DCUBOT/install/librealsense2/bin/rs-enumerate-devices" to ""
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/bin/rs-fw-logger
+-- Set runtime path of "/home/dcubot/DCUBOT/install/librealsense2/bin/rs-fw-logger" to ""
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/bin/rs-terminal
+-- Set runtime path of "/home/dcubot/DCUBOT/install/librealsense2/bin/rs-terminal" to ""
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/bin/rs-record
+-- Set runtime path of "/home/dcubot/DCUBOT/install/librealsense2/bin/rs-record" to ""
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/bin/rs-fw-update
+-- Set runtime path of "/home/dcubot/DCUBOT/install/librealsense2/bin/rs-fw-update" to ""
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/bin/rs-embed
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/bin/rs-data-collect
+-- Set runtime path of "/home/dcubot/DCUBOT/install/librealsense2/bin/rs-data-collect" to ""
+-- Installing: /home/dcubot/DCUBOT/install/librealsense2/bin/realsense-viewer
+-- Set runtime path of "/home/dcubot/DCUBOT/install/librealsense2/bin/realsense-viewer" to ""
+-- Up-to-date: /home/dcubot/Documents/librealsense2/presets

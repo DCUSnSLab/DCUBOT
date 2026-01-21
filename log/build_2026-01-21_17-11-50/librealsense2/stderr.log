@@ -1,0 +1,40 @@
+Cloning into 'json'...
+Cloning into 'libcurl'...
+HEAD is now at fd567d4f06 RELEASE-NOTES: synced
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    ANDROID_ABI
+    ANDROID_STL
+    CMAKE_CXX_FLAGS
+    CMAKE_CXX_STANDARD_LIBRARIES
+    CURL_DISABLE_CRYPTO_AUTH
+
+[0m
+[01m[K/home/dcubot/DCUBOT/librealsense/src/sync.cpp:[m[K In function ‘[01m[Kstd::pair<double, double> librealsense::extract_timestamps(librealsense::frame_holder&, librealsense::frame_holder&)[m[K’:
+[01m[K/home/dcubot/DCUBOT/librealsense/src/sync.cpp:547:84:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::pair<double, double>[m[K’ when C++17 is enabled changed to match C++14 ]8;;https://gcc.gnu.org/gcc-10/changes.html#empty_basein GCC 10.1]8;;
+  547 |     std::pair<double, double> extract_timestamps(frame_holder & a, frame_holder & b[01;36m[K)[m[K
+      |                                                                                    [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:64[m[K,
+                 from [01m[K/usr/include/c++/11/bits/specfun.h:45[m[K,
+                 from [01m[K/usr/include/c++/11/cmath:1935[m[K,
+                 from [01m[K/usr/include/c++/11/math.h:36[m[K,
+                 from [01m[K/home/dcubot/DCUBOT/librealsense/include/librealsense2/rsutil.h:10[m[K,
+                 from [01m[K/home/dcubot/DCUBOT/librealsense/include/librealsense2/rs.h:16[m[K,
+                 from [01m[K/home/dcubot/DCUBOT/librealsense/include/librealsense2/rs.hpp:7[m[K,
+                 from [01m[K/home/dcubot/DCUBOT/librealsense/common/model-views.cpp:10[m[K:
+/usr/include/c++/11/bits/stl_pair.h: In instantiation of ‘[01m[Kconstexpr std::pair<typename std::__strip_reference_wrapper<typename std::decay<_Tp>::type>::__type, typename std::__strip_reference_wrapper<typename std::decay<_Tp2>::type>::__type> std::make_pair(_T1&&, _T2&&) [with _T1 = float&; _T2 = float&; typename std::__strip_reference_wrapper<typename std::decay<_Tp2>::type>::__type = float; typename std::decay<_Tp2>::type = float; typename std::__strip_reference_wrapper<typename std::decay<_Tp>::type>::__type = float; typename std::decay<_Tp>::type = float][m[K’:
+[01m[K/home/dcubot/DCUBOT/librealsense/common/output-model.h:54:71:[m[K   required from here
+[01m[K/usr/include/c++/11/bits/stl_pair.h:567:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::pair<float, float>[m[K’ when C++17 is enabled changed to match C++14 ]8;;https://gcc.gnu.org/gcc-10/changes.html#empty_basein GCC 10.1]8;;
+  567 |     [01;36m[Kmake_pair[m[K(_T1&& __x, _T2&& __y)
+      |     [01;36m[K^~~~~~~~~[m[K
+gmake[2]: *** [tools/rosbag-inspector/CMakeFiles/rs-rosbag-inspector.dir/build.make:76: tools/rosbag-inspector/CMakeFiles/rs-rosbag-inspector.dir/rs-rosbag-inspector.cpp.o] Interrupt
+gmake[2]: *** [tools/rosbag-inspector/CMakeFiles/rs-rosbag-inspector.dir/build.make:118: tools/rosbag-inspector/CMakeFiles/rs-rosbag-inspector.dir/__/__/third-party/imgui/imgui.cpp.o] Interrupt
+gmake[2]: *** [tools/depth-quality/CMakeFiles/rs-depth-quality.dir/build.make:90: tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/model-views.cpp.o] Interrupt
+gmake[2]: *** [tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/build.make:104: tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/notifications.cpp.o] Interrupt
+gmake[2]: *** [tools/benchmark/CMakeFiles/rs-benchmark.dir/build.make:76: tools/benchmark/CMakeFiles/rs-benchmark.dir/rs-benchmark.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:1976: tools/rosbag-inspector/CMakeFiles/rs-rosbag-inspector.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:1917: tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:1947: tools/depth-quality/CMakeFiles/rs-depth-quality.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:2004: tools/benchmark/CMakeFiles/rs-benchmark.dir/all] Interrupt
+gmake: *** [Makefile:136: all] Interrupt

@@ -1,0 +1,21 @@
+Performing C SOURCE FILE Test ASan_FLAG_DETECTED failed with the following output:
+Change Dir: /home/dcubot/DCUBOT/build/microxrcedds_agent/sanitizers/src/sanitizers-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d80ba/fast && gmake[3]: Entering directory '/home/dcubot/DCUBOT/build/microxrcedds_agent/sanitizers/src/sanitizers-build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_d80ba.dir/build.make CMakeFiles/cmTC_d80ba.dir/build
+gmake[4]: Entering directory '/home/dcubot/DCUBOT/build/microxrcedds_agent/sanitizers/src/sanitizers-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d80ba.dir/src.c.o
+/usr/bin/cc -DASan_FLAG_DETECTED  /fsanitize=address   /fsanitize=address -o CMakeFiles/cmTC_d80ba.dir/src.c.o -c /home/dcubot/DCUBOT/build/microxrcedds_agent/sanitizers/src/sanitizers-build/CMakeFiles/CMakeTmp/src.c
+cc: warning: /fsanitize=address: linker input file unused because linking not done
+cc: error: /fsanitize=address: linker input file not found: No such file or directory
+cc: warning: /fsanitize=address: linker input file unused because linking not done
+cc: error: /fsanitize=address: linker input file not found: No such file or directory
+gmake[4]: *** [CMakeFiles/cmTC_d80ba.dir/build.make:78: CMakeFiles/cmTC_d80ba.dir/src.c.o] Error 1
+gmake[4]: *** Deleting file 'CMakeFiles/cmTC_d80ba.dir/src.c.o'
+gmake[4]: Leaving directory '/home/dcubot/DCUBOT/build/microxrcedds_agent/sanitizers/src/sanitizers-build/CMakeFiles/CMakeTmp'
+gmake[3]: *** [Makefile:127: cmTC_d80ba/fast] Error 2
+gmake[3]: Leaving directory '/home/dcubot/DCUBOT/build/microxrcedds_agent/sanitizers/src/sanitizers-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }

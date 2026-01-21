@@ -1,0 +1,12 @@
+# Hashes of file build rules.
+79b5cf3c2cf56aa8989a76a65ed9cb82 CMakeFiles/sanitizers-complete
+0a57734928c24e3aa96bac8c28ad1cf3 sanitizers/src/sanitizers-stamp/sanitizers-build
+46bf6db7b70858934fa769e0a863dfa4 sanitizers/src/sanitizers-stamp/sanitizers-configure
+f577556150b9d4a3ddf694b8557dcf29 sanitizers/src/sanitizers-stamp/sanitizers-download
+ae62dfb0fc1a0b050374cf7ae535db85 sanitizers/src/sanitizers-stamp/sanitizers-install
+2be475f93d8c71914bf307ba8cfbc031 sanitizers/src/sanitizers-stamp/sanitizers-mkdir
+167cc005b4fee6e3175bdf1dda64b57e sanitizers/src/sanitizers-stamp/sanitizers-patch
+ad06ee90ef1d40c06fe54d4edd2844e8 uagent-prefix/src/uagent-stamp/uagent-download
+f54c267a9742e9254a0e0ec633fa126d uagent-prefix/src/uagent-stamp/uagent-mkdir
+c33ba2eb1b62afdb7230d3a91d3ee0b8 uagent-prefix/src/uagent-stamp/uagent-patch
+50870554dacfe7688fe5c8eac2401e34 uagent-prefix/src/uagent-stamp/uagent-update
