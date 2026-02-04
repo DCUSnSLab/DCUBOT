@@ -16,7 +16,7 @@ set(_realsense2_camera_msgs_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT realsense2_camera_msgs_FIND_QUIETLY)
-  message(STATUS "Found realsense2_camera_msgs: 4.57.0 (${realsense2_camera_msgs_DIR})")
+  message(STATUS "Found realsense2_camera_msgs: 4.54.1 (${realsense2_camera_msgs_DIR})")
 endif()
 
 # warn when using a deprecated package

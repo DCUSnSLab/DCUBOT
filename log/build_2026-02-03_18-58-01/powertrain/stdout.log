@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating powertrain.egg-info
+writing powertrain.egg-info/PKG-INFO
+writing dependency_links to powertrain.egg-info/dependency_links.txt
+writing entry points to powertrain.egg-info/entry_points.txt
+writing requirements to powertrain.egg-info/requires.txt
+writing top-level names to powertrain.egg-info/top_level.txt
+writing manifest file 'powertrain.egg-info/SOURCES.txt'
+reading manifest file 'powertrain.egg-info/SOURCES.txt'
+writing manifest file 'powertrain.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/dcubot/DCUBOT/install/powertrain/lib/python3.10/site-packages/powertrain.egg-link (link to .)
+
+Installed /home/dcubot/DCUBOT/build/powertrain
+running symlink_data
+creating /home/dcubot/DCUBOT/install/powertrain/share/ament_index
+creating /home/dcubot/DCUBOT/install/powertrain/share/ament_index/resource_index
+creating /home/dcubot/DCUBOT/install/powertrain/share/ament_index/resource_index/packages
+symbolically linking /home/dcubot/DCUBOT/build/powertrain/resource/powertrain -> /home/dcubot/DCUBOT/install/powertrain/share/ament_index/resource_index/packages
+symbolically linking /home/dcubot/DCUBOT/build/powertrain/package.xml -> /home/dcubot/DCUBOT/install/powertrain/share/powertrain

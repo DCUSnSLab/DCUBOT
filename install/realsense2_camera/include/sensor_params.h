@@ -1,0 +1,1 @@
+/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera/include/sensor_params.h

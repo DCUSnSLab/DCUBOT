@@ -1,3 +1,0 @@
-/home/dcubot/DCUBOT/build/librealsense2/external-projects/json-download/CMakeFiles/nlohmann_json.dir
-/home/dcubot/DCUBOT/build/librealsense2/external-projects/json-download/CMakeFiles/edit_cache.dir
-/home/dcubot/DCUBOT/build/librealsense2/external-projects/json-download/CMakeFiles/rebuild_cache.dir

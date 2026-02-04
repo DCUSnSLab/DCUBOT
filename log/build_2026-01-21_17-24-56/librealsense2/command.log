@@ -1,4 +1,0 @@
-Invoking command in '/home/dcubot/DCUBOT/build/librealsense2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dcubot/DCUBOT/install/powertrain:/opt/ros/humble /usr/bin/cmake --build /home/dcubot/DCUBOT/build/librealsense2 -- -j6 -l6
-Invoked command in '/home/dcubot/DCUBOT/build/librealsense2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dcubot/DCUBOT/install/powertrain:/opt/ros/humble /usr/bin/cmake --build /home/dcubot/DCUBOT/build/librealsense2 -- -j6 -l6
-Invoking command in '/home/dcubot/DCUBOT/build/librealsense2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dcubot/DCUBOT/install/powertrain:/opt/ros/humble /usr/bin/cmake --install /home/dcubot/DCUBOT/build/librealsense2
-Invoked command in '/home/dcubot/DCUBOT/build/librealsense2' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dcubot/DCUBOT/install/powertrain:/opt/ros/humble /usr/bin/cmake --install /home/dcubot/DCUBOT/build/librealsense2

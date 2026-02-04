@@ -85,18 +85,7 @@ rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/
 rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: rosidl_adapter/realsense2_camera_msgs/msg/IMUInfo.idl
 rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: rosidl_adapter/realsense2_camera_msgs/msg/Extrinsics.idl
 rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: rosidl_adapter/realsense2_camera_msgs/msg/Metadata.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: rosidl_adapter/realsense2_camera_msgs/msg/RGBD.idl
 rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: rosidl_adapter/realsense2_camera_msgs/srv/DeviceInfo.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: rosidl_adapter/realsense2_camera_msgs/srv/SafetyPresetRead.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: rosidl_adapter/realsense2_camera_msgs/srv/SafetyPresetWrite.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: rosidl_adapter/realsense2_camera_msgs/srv/SafetyInterfaceConfigRead.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: rosidl_adapter/realsense2_camera_msgs/srv/SafetyInterfaceConfigWrite.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: rosidl_adapter/realsense2_camera_msgs/srv/CalibConfigRead.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: rosidl_adapter/realsense2_camera_msgs/srv/CalibConfigWrite.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: rosidl_adapter/realsense2_camera_msgs/srv/ApplicationConfigRead.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: rosidl_adapter/realsense2_camera_msgs/srv/ApplicationConfigWrite.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: rosidl_adapter/realsense2_camera_msgs/srv/HardwareMonitorCommandSend.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: rosidl_adapter/realsense2_camera_msgs/action/TriggeredCalibration.idl
 rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
 rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/std_msgs/msg/Bool.idl
@@ -129,71 +118,6 @@ rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/
 rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/std_msgs/msg/UInt64MultiArray.idl
 rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/std_msgs/msg/UInt8.idl
 rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/sensor_msgs/msg/BatteryState.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/sensor_msgs/msg/CameraInfo.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/sensor_msgs/msg/ChannelFloat32.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/sensor_msgs/msg/CompressedImage.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/sensor_msgs/msg/FluidPressure.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/sensor_msgs/msg/Illuminance.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/sensor_msgs/msg/Image.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/sensor_msgs/msg/Imu.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/sensor_msgs/msg/JointState.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/sensor_msgs/msg/Joy.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/sensor_msgs/msg/JoyFeedback.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/sensor_msgs/msg/JoyFeedbackArray.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/sensor_msgs/msg/LaserEcho.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/sensor_msgs/msg/LaserScan.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/sensor_msgs/msg/MagneticField.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/sensor_msgs/msg/MultiDOFJointState.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/sensor_msgs/msg/MultiEchoLaserScan.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/sensor_msgs/msg/NavSatFix.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/sensor_msgs/msg/NavSatStatus.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/sensor_msgs/msg/PointCloud.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/sensor_msgs/msg/PointCloud2.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/sensor_msgs/msg/PointField.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/sensor_msgs/msg/Range.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/sensor_msgs/msg/RegionOfInterest.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/sensor_msgs/msg/RelativeHumidity.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/sensor_msgs/msg/Temperature.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/sensor_msgs/msg/TimeReference.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/sensor_msgs/srv/SetCameraInfo.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/geometry_msgs/msg/Accel.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/geometry_msgs/msg/AccelStamped.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/geometry_msgs/msg/AccelWithCovariance.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/geometry_msgs/msg/AccelWithCovarianceStamped.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/geometry_msgs/msg/Inertia.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/geometry_msgs/msg/InertiaStamped.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/geometry_msgs/msg/Point.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/geometry_msgs/msg/Point32.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/geometry_msgs/msg/PointStamped.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/geometry_msgs/msg/Polygon.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/geometry_msgs/msg/PolygonInstance.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/geometry_msgs/msg/PolygonInstanceStamped.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/geometry_msgs/msg/PolygonStamped.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/geometry_msgs/msg/Pose.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/geometry_msgs/msg/Pose2D.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/geometry_msgs/msg/PoseArray.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/geometry_msgs/msg/PoseStamped.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/geometry_msgs/msg/PoseWithCovariance.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/geometry_msgs/msg/PoseWithCovarianceStamped.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/geometry_msgs/msg/Quaternion.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/geometry_msgs/msg/QuaternionStamped.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/geometry_msgs/msg/Transform.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/geometry_msgs/msg/TransformStamped.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/geometry_msgs/msg/Twist.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/geometry_msgs/msg/TwistStamped.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/geometry_msgs/msg/TwistWithCovariance.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/geometry_msgs/msg/TwistWithCovarianceStamped.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/geometry_msgs/msg/Vector3.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/geometry_msgs/msg/Vector3Stamped.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/geometry_msgs/msg/VelocityStamped.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/geometry_msgs/msg/Wrench.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/geometry_msgs/msg/WrenchStamped.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/action_msgs/srv/CancelGoal.idl
-rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h: /opt/ros/humble/share/unique_identifier_msgs/msg/UUID.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/dcubot/DCUBOT/build/realsense2_camera_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_generator_c__arguments.json
 
@@ -230,18 +154,6 @@ rosidl_generator_c/realsense2_camera_msgs/msg/detail/metadata__struct.h: rosidl_
 rosidl_generator_c/realsense2_camera_msgs/msg/detail/metadata__type_support.h: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/msg/detail/metadata__type_support.h
 
-rosidl_generator_c/realsense2_camera_msgs/msg/rgbd.h: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/msg/rgbd.h
-
-rosidl_generator_c/realsense2_camera_msgs/msg/detail/rgbd__functions.h: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/msg/detail/rgbd__functions.h
-
-rosidl_generator_c/realsense2_camera_msgs/msg/detail/rgbd__struct.h: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/msg/detail/rgbd__struct.h
-
-rosidl_generator_c/realsense2_camera_msgs/msg/detail/rgbd__type_support.h: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/msg/detail/rgbd__type_support.h
-
 rosidl_generator_c/realsense2_camera_msgs/srv/device_info.h: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/srv/device_info.h
 
@@ -254,126 +166,6 @@ rosidl_generator_c/realsense2_camera_msgs/srv/detail/device_info__struct.h: rosi
 rosidl_generator_c/realsense2_camera_msgs/srv/detail/device_info__type_support.h: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/srv/detail/device_info__type_support.h
 
-rosidl_generator_c/realsense2_camera_msgs/srv/safety_preset_read.h: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/srv/safety_preset_read.h
-
-rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_read__functions.h: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_read__functions.h
-
-rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_read__struct.h: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_read__struct.h
-
-rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_read__type_support.h: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_read__type_support.h
-
-rosidl_generator_c/realsense2_camera_msgs/srv/safety_preset_write.h: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/srv/safety_preset_write.h
-
-rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_write__functions.h: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_write__functions.h
-
-rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_write__struct.h: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_write__struct.h
-
-rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_write__type_support.h: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_write__type_support.h
-
-rosidl_generator_c/realsense2_camera_msgs/srv/safety_interface_config_read.h: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/srv/safety_interface_config_read.h
-
-rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_read__functions.h: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_read__functions.h
-
-rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_read__struct.h: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_read__struct.h
-
-rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_read__type_support.h: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_read__type_support.h
-
-rosidl_generator_c/realsense2_camera_msgs/srv/safety_interface_config_write.h: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/srv/safety_interface_config_write.h
-
-rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_write__functions.h: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_write__functions.h
-
-rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_write__struct.h: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_write__struct.h
-
-rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_write__type_support.h: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_write__type_support.h
-
-rosidl_generator_c/realsense2_camera_msgs/srv/calib_config_read.h: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/srv/calib_config_read.h
-
-rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_read__functions.h: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_read__functions.h
-
-rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_read__struct.h: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_read__struct.h
-
-rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_read__type_support.h: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_read__type_support.h
-
-rosidl_generator_c/realsense2_camera_msgs/srv/calib_config_write.h: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/srv/calib_config_write.h
-
-rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_write__functions.h: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_write__functions.h
-
-rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_write__struct.h: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_write__struct.h
-
-rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_write__type_support.h: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_write__type_support.h
-
-rosidl_generator_c/realsense2_camera_msgs/srv/application_config_read.h: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/srv/application_config_read.h
-
-rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_read__functions.h: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_read__functions.h
-
-rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_read__struct.h: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_read__struct.h
-
-rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_read__type_support.h: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_read__type_support.h
-
-rosidl_generator_c/realsense2_camera_msgs/srv/application_config_write.h: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/srv/application_config_write.h
-
-rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_write__functions.h: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_write__functions.h
-
-rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_write__struct.h: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_write__struct.h
-
-rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_write__type_support.h: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_write__type_support.h
-
-rosidl_generator_c/realsense2_camera_msgs/srv/hardware_monitor_command_send.h: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/srv/hardware_monitor_command_send.h
-
-rosidl_generator_c/realsense2_camera_msgs/srv/detail/hardware_monitor_command_send__functions.h: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/srv/detail/hardware_monitor_command_send__functions.h
-
-rosidl_generator_c/realsense2_camera_msgs/srv/detail/hardware_monitor_command_send__struct.h: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/srv/detail/hardware_monitor_command_send__struct.h
-
-rosidl_generator_c/realsense2_camera_msgs/srv/detail/hardware_monitor_command_send__type_support.h: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/srv/detail/hardware_monitor_command_send__type_support.h
-
-rosidl_generator_c/realsense2_camera_msgs/action/triggered_calibration.h: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/action/triggered_calibration.h
-
-rosidl_generator_c/realsense2_camera_msgs/action/detail/triggered_calibration__functions.h: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/action/detail/triggered_calibration__functions.h
-
-rosidl_generator_c/realsense2_camera_msgs/action/detail/triggered_calibration__struct.h: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/action/detail/triggered_calibration__struct.h
-
-rosidl_generator_c/realsense2_camera_msgs/action/detail/triggered_calibration__type_support.h: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/action/detail/triggered_calibration__type_support.h
-
 rosidl_generator_c/realsense2_camera_msgs/msg/detail/imu_info__functions.c: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/msg/detail/imu_info__functions.c
 
@@ -383,41 +175,8 @@ rosidl_generator_c/realsense2_camera_msgs/msg/detail/extrinsics__functions.c: ro
 rosidl_generator_c/realsense2_camera_msgs/msg/detail/metadata__functions.c: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/msg/detail/metadata__functions.c
 
-rosidl_generator_c/realsense2_camera_msgs/msg/detail/rgbd__functions.c: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/msg/detail/rgbd__functions.c
-
 rosidl_generator_c/realsense2_camera_msgs/srv/detail/device_info__functions.c: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/srv/detail/device_info__functions.c
-
-rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_read__functions.c: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_read__functions.c
-
-rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_write__functions.c: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_write__functions.c
-
-rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_read__functions.c: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_read__functions.c
-
-rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_write__functions.c: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_write__functions.c
-
-rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_read__functions.c: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_read__functions.c
-
-rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_write__functions.c: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_write__functions.c
-
-rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_read__functions.c: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_read__functions.c
-
-rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_write__functions.c: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_write__functions.c
-
-rosidl_generator_c/realsense2_camera_msgs/srv/detail/hardware_monitor_command_send__functions.c: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/srv/detail/hardware_monitor_command_send__functions.c
-
-rosidl_generator_c/realsense2_camera_msgs/action/detail/triggered_calibration__functions.c: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/realsense2_camera_msgs/action/detail/triggered_calibration__functions.c
 
 CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/imu_info__functions.c.o: CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/flags.make
 CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/imu_info__functions.c.o: rosidl_generator_c/realsense2_camera_msgs/msg/detail/imu_info__functions.c
@@ -461,24 +220,10 @@ CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/rea
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/metadata__functions.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/msg/detail/metadata__functions.c -o CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/metadata__functions.c.s
 
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/rgbd__functions.c.o: CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/flags.make
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/rgbd__functions.c.o: rosidl_generator_c/realsense2_camera_msgs/msg/detail/rgbd__functions.c
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/rgbd__functions.c.o: CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dcubot/DCUBOT/build/realsense2_camera_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/rgbd__functions.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/rgbd__functions.c.o -MF CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/rgbd__functions.c.o.d -o CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/rgbd__functions.c.o -c /home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/msg/detail/rgbd__functions.c
-
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/rgbd__functions.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/rgbd__functions.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/msg/detail/rgbd__functions.c > CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/rgbd__functions.c.i
-
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/rgbd__functions.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/rgbd__functions.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/msg/detail/rgbd__functions.c -o CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/rgbd__functions.c.s
-
 CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/device_info__functions.c.o: CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/flags.make
 CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/device_info__functions.c.o: rosidl_generator_c/realsense2_camera_msgs/srv/detail/device_info__functions.c
 CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/device_info__functions.c.o: CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dcubot/DCUBOT/build/realsense2_camera_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/device_info__functions.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dcubot/DCUBOT/build/realsense2_camera_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/device_info__functions.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/device_info__functions.c.o -MF CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/device_info__functions.c.o.d -o CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/device_info__functions.c.o -c /home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/srv/detail/device_info__functions.c
 
 CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/device_info__functions.c.i: cmake_force
@@ -489,163 +234,12 @@ CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/rea
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/device_info__functions.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/srv/detail/device_info__functions.c -o CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/device_info__functions.c.s
 
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_read__functions.c.o: CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/flags.make
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_read__functions.c.o: rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_read__functions.c
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_read__functions.c.o: CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dcubot/DCUBOT/build/realsense2_camera_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_read__functions.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_read__functions.c.o -MF CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_read__functions.c.o.d -o CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_read__functions.c.o -c /home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_read__functions.c
-
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_read__functions.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_read__functions.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_read__functions.c > CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_read__functions.c.i
-
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_read__functions.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_read__functions.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_read__functions.c -o CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_read__functions.c.s
-
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_write__functions.c.o: CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/flags.make
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_write__functions.c.o: rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_write__functions.c
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_write__functions.c.o: CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dcubot/DCUBOT/build/realsense2_camera_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_write__functions.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_write__functions.c.o -MF CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_write__functions.c.o.d -o CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_write__functions.c.o -c /home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_write__functions.c
-
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_write__functions.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_write__functions.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_write__functions.c > CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_write__functions.c.i
-
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_write__functions.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_write__functions.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_write__functions.c -o CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_write__functions.c.s
-
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_read__functions.c.o: CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/flags.make
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_read__functions.c.o: rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_read__functions.c
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_read__functions.c.o: CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dcubot/DCUBOT/build/realsense2_camera_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_read__functions.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_read__functions.c.o -MF CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_read__functions.c.o.d -o CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_read__functions.c.o -c /home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_read__functions.c
-
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_read__functions.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_read__functions.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_read__functions.c > CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_read__functions.c.i
-
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_read__functions.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_read__functions.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_read__functions.c -o CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_read__functions.c.s
-
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_write__functions.c.o: CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/flags.make
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_write__functions.c.o: rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_write__functions.c
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_write__functions.c.o: CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dcubot/DCUBOT/build/realsense2_camera_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_write__functions.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_write__functions.c.o -MF CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_write__functions.c.o.d -o CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_write__functions.c.o -c /home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_write__functions.c
-
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_write__functions.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_write__functions.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_write__functions.c > CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_write__functions.c.i
-
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_write__functions.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_write__functions.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_write__functions.c -o CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_write__functions.c.s
-
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_read__functions.c.o: CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/flags.make
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_read__functions.c.o: rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_read__functions.c
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_read__functions.c.o: CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dcubot/DCUBOT/build/realsense2_camera_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_read__functions.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_read__functions.c.o -MF CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_read__functions.c.o.d -o CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_read__functions.c.o -c /home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_read__functions.c
-
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_read__functions.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_read__functions.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_read__functions.c > CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_read__functions.c.i
-
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_read__functions.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_read__functions.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_read__functions.c -o CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_read__functions.c.s
-
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_write__functions.c.o: CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/flags.make
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_write__functions.c.o: rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_write__functions.c
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_write__functions.c.o: CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dcubot/DCUBOT/build/realsense2_camera_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_write__functions.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_write__functions.c.o -MF CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_write__functions.c.o.d -o CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_write__functions.c.o -c /home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_write__functions.c
-
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_write__functions.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_write__functions.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_write__functions.c > CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_write__functions.c.i
-
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_write__functions.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_write__functions.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_write__functions.c -o CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_write__functions.c.s
-
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_read__functions.c.o: CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/flags.make
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_read__functions.c.o: rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_read__functions.c
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_read__functions.c.o: CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dcubot/DCUBOT/build/realsense2_camera_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_read__functions.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_read__functions.c.o -MF CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_read__functions.c.o.d -o CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_read__functions.c.o -c /home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_read__functions.c
-
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_read__functions.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_read__functions.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_read__functions.c > CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_read__functions.c.i
-
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_read__functions.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_read__functions.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_read__functions.c -o CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_read__functions.c.s
-
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_write__functions.c.o: CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/flags.make
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_write__functions.c.o: rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_write__functions.c
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_write__functions.c.o: CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dcubot/DCUBOT/build/realsense2_camera_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_write__functions.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_write__functions.c.o -MF CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_write__functions.c.o.d -o CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_write__functions.c.o -c /home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_write__functions.c
-
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_write__functions.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_write__functions.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_write__functions.c > CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_write__functions.c.i
-
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_write__functions.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_write__functions.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_write__functions.c -o CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_write__functions.c.s
-
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/hardware_monitor_command_send__functions.c.o: CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/flags.make
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/hardware_monitor_command_send__functions.c.o: rosidl_generator_c/realsense2_camera_msgs/srv/detail/hardware_monitor_command_send__functions.c
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/hardware_monitor_command_send__functions.c.o: CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dcubot/DCUBOT/build/realsense2_camera_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/hardware_monitor_command_send__functions.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/hardware_monitor_command_send__functions.c.o -MF CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/hardware_monitor_command_send__functions.c.o.d -o CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/hardware_monitor_command_send__functions.c.o -c /home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/srv/detail/hardware_monitor_command_send__functions.c
-
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/hardware_monitor_command_send__functions.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/hardware_monitor_command_send__functions.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/srv/detail/hardware_monitor_command_send__functions.c > CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/hardware_monitor_command_send__functions.c.i
-
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/hardware_monitor_command_send__functions.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/hardware_monitor_command_send__functions.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/srv/detail/hardware_monitor_command_send__functions.c -o CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/hardware_monitor_command_send__functions.c.s
-
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/action/detail/triggered_calibration__functions.c.o: CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/flags.make
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/action/detail/triggered_calibration__functions.c.o: rosidl_generator_c/realsense2_camera_msgs/action/detail/triggered_calibration__functions.c
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/action/detail/triggered_calibration__functions.c.o: CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dcubot/DCUBOT/build/realsense2_camera_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/action/detail/triggered_calibration__functions.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/action/detail/triggered_calibration__functions.c.o -MF CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/action/detail/triggered_calibration__functions.c.o.d -o CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/action/detail/triggered_calibration__functions.c.o -c /home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/action/detail/triggered_calibration__functions.c
-
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/action/detail/triggered_calibration__functions.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/action/detail/triggered_calibration__functions.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/action/detail/triggered_calibration__functions.c > CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/action/detail/triggered_calibration__functions.c.i
-
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/action/detail/triggered_calibration__functions.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/action/detail/triggered_calibration__functions.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/action/detail/triggered_calibration__functions.c -o CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/action/detail/triggered_calibration__functions.c.s
-
 # Object files for target realsense2_camera_msgs__rosidl_generator_c
 realsense2_camera_msgs__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/imu_info__functions.c.o" \
 "CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/extrinsics__functions.c.o" \
 "CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/metadata__functions.c.o" \
-"CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/rgbd__functions.c.o" \
-"CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/device_info__functions.c.o" \
-"CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_read__functions.c.o" \
-"CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_write__functions.c.o" \
-"CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_read__functions.c.o" \
-"CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_write__functions.c.o" \
-"CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_read__functions.c.o" \
-"CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_write__functions.c.o" \
-"CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_read__functions.c.o" \
-"CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_write__functions.c.o" \
-"CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/hardware_monitor_command_send__functions.c.o" \
-"CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/action/detail/triggered_calibration__functions.c.o"
+"CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/device_info__functions.c.o"
 
 # External object files for target realsense2_camera_msgs__rosidl_generator_c
 realsense2_camera_msgs__rosidl_generator_c_EXTERNAL_OBJECTS =
@@ -653,29 +247,14 @@ realsense2_camera_msgs__rosidl_generator_c_EXTERNAL_OBJECTS =
 librealsense2_camera_msgs__rosidl_generator_c.so: CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/imu_info__functions.c.o
 librealsense2_camera_msgs__rosidl_generator_c.so: CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/extrinsics__functions.c.o
 librealsense2_camera_msgs__rosidl_generator_c.so: CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/metadata__functions.c.o
-librealsense2_camera_msgs__rosidl_generator_c.so: CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/rgbd__functions.c.o
 librealsense2_camera_msgs__rosidl_generator_c.so: CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/device_info__functions.c.o
-librealsense2_camera_msgs__rosidl_generator_c.so: CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_read__functions.c.o
-librealsense2_camera_msgs__rosidl_generator_c.so: CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_write__functions.c.o
-librealsense2_camera_msgs__rosidl_generator_c.so: CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_read__functions.c.o
-librealsense2_camera_msgs__rosidl_generator_c.so: CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_write__functions.c.o
-librealsense2_camera_msgs__rosidl_generator_c.so: CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_read__functions.c.o
-librealsense2_camera_msgs__rosidl_generator_c.so: CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_write__functions.c.o
-librealsense2_camera_msgs__rosidl_generator_c.so: CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_read__functions.c.o
-librealsense2_camera_msgs__rosidl_generator_c.so: CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_write__functions.c.o
-librealsense2_camera_msgs__rosidl_generator_c.so: CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/hardware_monitor_command_send__functions.c.o
-librealsense2_camera_msgs__rosidl_generator_c.so: CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/action/detail/triggered_calibration__functions.c.o
 librealsense2_camera_msgs__rosidl_generator_c.so: CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/build.make
-librealsense2_camera_msgs__rosidl_generator_c.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
-librealsense2_camera_msgs__rosidl_generator_c.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
-librealsense2_camera_msgs__rosidl_generator_c.so: /opt/ros/humble/lib/libaction_msgs__rosidl_generator_c.so
-librealsense2_camera_msgs__rosidl_generator_c.so: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_generator_c.so
 librealsense2_camera_msgs__rosidl_generator_c.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
 librealsense2_camera_msgs__rosidl_generator_c.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
 librealsense2_camera_msgs__rosidl_generator_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 librealsense2_camera_msgs__rosidl_generator_c.so: /opt/ros/humble/lib/librcutils.so
 librealsense2_camera_msgs__rosidl_generator_c.so: CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dcubot/DCUBOT/build/realsense2_camera_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking C shared library librealsense2_camera_msgs__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dcubot/DCUBOT/build/realsense2_camera_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C shared library librealsense2_camera_msgs__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -686,11 +265,6 @@ CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/clean
 
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/action/detail/triggered_calibration__functions.c
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/action/detail/triggered_calibration__functions.h
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/action/detail/triggered_calibration__struct.h
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/action/detail/triggered_calibration__type_support.h
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/action/triggered_calibration.h
 CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/msg/detail/extrinsics__functions.c
 CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/msg/detail/extrinsics__functions.h
 CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/msg/detail/extrinsics__struct.h
@@ -703,64 +277,14 @@ CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generat
 CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/msg/detail/metadata__functions.h
 CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/msg/detail/metadata__struct.h
 CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/msg/detail/metadata__type_support.h
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/msg/detail/rgbd__functions.c
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/msg/detail/rgbd__functions.h
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/msg/detail/rgbd__struct.h
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/msg/detail/rgbd__type_support.h
 CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/msg/extrinsics.h
 CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h
 CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/msg/metadata.h
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/msg/rgbd.h
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/srv/application_config_read.h
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/srv/application_config_write.h
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/srv/calib_config_read.h
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/srv/calib_config_write.h
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_read__functions.c
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_read__functions.h
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_read__struct.h
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_read__type_support.h
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_write__functions.c
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_write__functions.h
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_write__struct.h
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/srv/detail/application_config_write__type_support.h
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_read__functions.c
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_read__functions.h
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_read__struct.h
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_read__type_support.h
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_write__functions.c
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_write__functions.h
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_write__struct.h
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_write__type_support.h
 CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/srv/detail/device_info__functions.c
 CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/srv/detail/device_info__functions.h
 CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/srv/detail/device_info__struct.h
 CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/srv/detail/device_info__type_support.h
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/srv/detail/hardware_monitor_command_send__functions.c
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/srv/detail/hardware_monitor_command_send__functions.h
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/srv/detail/hardware_monitor_command_send__struct.h
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/srv/detail/hardware_monitor_command_send__type_support.h
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_read__functions.c
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_read__functions.h
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_read__struct.h
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_read__type_support.h
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_write__functions.c
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_write__functions.h
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_write__struct.h
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_interface_config_write__type_support.h
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_read__functions.c
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_read__functions.h
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_read__struct.h
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_read__type_support.h
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_write__functions.c
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_write__functions.h
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_write__struct.h
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/srv/detail/safety_preset_write__type_support.h
 CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/srv/device_info.h
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/srv/hardware_monitor_command_send.h
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/srv/safety_interface_config_read.h
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/srv/safety_interface_config_write.h
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/srv/safety_preset_read.h
-CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/realsense2_camera_msgs/srv/safety_preset_write.h
 	cd /home/dcubot/DCUBOT/build/realsense2_camera_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs /home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs /home/dcubot/DCUBOT/build/realsense2_camera_msgs /home/dcubot/DCUBOT/build/realsense2_camera_msgs /home/dcubot/DCUBOT/build/realsense2_camera_msgs/CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/depend
 

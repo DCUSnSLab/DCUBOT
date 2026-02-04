@@ -1,15 +1,4 @@
 /home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:msg/IMUInfo.idl
 /home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:msg/Extrinsics.idl
 /home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:msg/Metadata.idl
-/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:msg/RGBD.idl
 /home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:srv/DeviceInfo.idl
-/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:srv/SafetyPresetRead.idl
-/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:srv/SafetyPresetWrite.idl
-/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:srv/SafetyInterfaceConfigRead.idl
-/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:srv/SafetyInterfaceConfigWrite.idl
-/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:srv/CalibConfigRead.idl
-/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:srv/CalibConfigWrite.idl
-/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:srv/ApplicationConfigRead.idl
-/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:srv/ApplicationConfigWrite.idl
-/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:srv/HardwareMonitorCommandSend.idl
-/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:action/TriggeredCalibration.idl

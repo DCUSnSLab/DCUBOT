@@ -1,0 +1,446 @@
+[0.299s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--cmake-args', '-DCMAKE_BUILD_TYPE=Release']
+[0.299s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['-DCMAKE_BUILD_TYPE=Release'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff908de5f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff908ddc30>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff908ddc30>>, mixin_verb=('build',))
+[1.062s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.062s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.062s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.062s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.063s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.063s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.063s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dcubot/DCUBOT'
+[1.063s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.063s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.102s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.104s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.104s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.104s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.104s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.104s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.105s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.105s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.105s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.107s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.107s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.107s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.107s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.107s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.107s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.107s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.107s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.107s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/powertrain) by extensions ['ignore', 'ignore_ament_install']
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/powertrain) by extension 'ignore'
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/powertrain) by extension 'ignore_ament_install'
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/powertrain) by extensions ['colcon_pkg']
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/powertrain) by extension 'colcon_pkg'
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/powertrain) by extensions ['colcon_meta']
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/powertrain) by extension 'colcon_meta'
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/powertrain) by extensions ['ros']
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/powertrain) by extension 'ros'
+[1.116s] DEBUG:colcon.colcon_core.package_identification:Package 'src/powertrain' with type 'ros.ament_python' and name 'powertrain'
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['ignore', 'ignore_ament_install']
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'ignore'
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'ignore_ament_install'
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['colcon_pkg']
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'colcon_pkg'
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['colcon_meta']
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'colcon_meta'
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['ros']
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'ros'
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['cmake', 'python']
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'cmake'
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'python'
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['python_setup_py']
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'python_setup_py'
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['ignore', 'ignore_ament_install']
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'ignore'
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'ignore_ament_install'
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['colcon_pkg']
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'colcon_pkg'
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['colcon_meta']
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'colcon_meta'
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['ros']
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'ros'
+[1.124s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense-ros/realsense2_camera' with type 'ros.ament_cmake' and name 'realsense2_camera'
+[1.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'ignore'
+[1.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'ignore_ament_install'
+[1.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['colcon_pkg']
+[1.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'colcon_pkg'
+[1.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['colcon_meta']
+[1.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'colcon_meta'
+[1.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['ros']
+[1.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'ros'
+[1.127s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense-ros/realsense2_camera_msgs' with type 'ros.ament_cmake' and name 'realsense2_camera_msgs'
+[1.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['ignore', 'ignore_ament_install']
+[1.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'ignore'
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'ignore_ament_install'
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['colcon_pkg']
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'colcon_pkg'
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['colcon_meta']
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'colcon_meta'
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['ros']
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'ros'
+[1.130s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense-ros/realsense2_description' with type 'ros.ament_cmake' and name 'realsense2_description'
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['ignore', 'ignore_ament_install']
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'ignore'
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'ignore_ament_install'
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['colcon_pkg']
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'colcon_pkg'
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['colcon_meta']
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'colcon_meta'
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['ros']
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'ros'
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['cmake', 'python']
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'cmake'
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'python'
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['python_setup_py']
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'python_setup_py'
+[1.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ignore', 'ignore_ament_install']
+[1.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore'
+[1.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore_ament_install'
+[1.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_pkg']
+[1.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_pkg'
+[1.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_meta']
+[1.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_meta'
+[1.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ros']
+[1.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ros'
+[1.135s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rplidar_ros' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[1.135s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.135s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.135s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.135s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.135s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.236s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/dcubot/DCUBOT/install/rplidar_ros' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.236s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/dcubot/DCUBOT/install/realsense2_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.236s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/dcubot/DCUBOT/install/realsense2_camera' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.236s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/dcubot/DCUBOT/install/realsense2_camera_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.236s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/dcubot/DCUBOT/install/powertrain' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.237s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/dcubot/DCUBOT/install/rplidar_ros' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.237s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/dcubot/DCUBOT/install/realsense2_description' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.237s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/dcubot/DCUBOT/install/realsense2_camera' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.237s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/dcubot/DCUBOT/install/realsense2_camera_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.239s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/dcubot/DCUBOT/install
+[1.242s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 306 installed packages in /opt/ros/humble
+[1.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.330s] Level 5:colcon.colcon_core.verb:set package 'powertrain' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[1.331s] Level 5:colcon.colcon_core.verb:set package 'powertrain' build argument 'cmake_target' from command line to 'None'
+[1.331s] Level 5:colcon.colcon_core.verb:set package 'powertrain' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.331s] Level 5:colcon.colcon_core.verb:set package 'powertrain' build argument 'cmake_clean_cache' from command line to 'False'
+[1.331s] Level 5:colcon.colcon_core.verb:set package 'powertrain' build argument 'cmake_clean_first' from command line to 'False'
+[1.331s] Level 5:colcon.colcon_core.verb:set package 'powertrain' build argument 'cmake_force_configure' from command line to 'False'
+[1.331s] Level 5:colcon.colcon_core.verb:set package 'powertrain' build argument 'ament_cmake_args' from command line to 'None'
+[1.331s] Level 5:colcon.colcon_core.verb:set package 'powertrain' build argument 'catkin_cmake_args' from command line to 'None'
+[1.331s] Level 5:colcon.colcon_core.verb:set package 'powertrain' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.331s] DEBUG:colcon.colcon_core.verb:Building package 'powertrain' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dcubot/DCUBOT/build/powertrain', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dcubot/DCUBOT/install/powertrain', 'merge_install': False, 'path': '/home/dcubot/DCUBOT/src/powertrain', 'symlink_install': True, 'test_result_base': None}
+[1.332s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[1.332s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_target' from command line to 'None'
+[1.332s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.332s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.332s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.332s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.332s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.332s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.332s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.332s] DEBUG:colcon.colcon_core.verb:Building package 'realsense2_camera_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dcubot/DCUBOT/build/realsense2_camera_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dcubot/DCUBOT/install/realsense2_camera_msgs', 'merge_install': False, 'path': '/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs', 'symlink_install': True, 'test_result_base': None}
+[1.333s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[1.333s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target' from command line to 'None'
+[1.333s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.333s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[1.333s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_first' from command line to 'False'
+[1.333s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_force_configure' from command line to 'False'
+[1.333s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'ament_cmake_args' from command line to 'None'
+[1.333s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[1.333s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.334s] DEBUG:colcon.colcon_core.verb:Building package 'rplidar_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dcubot/DCUBOT/build/rplidar_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dcubot/DCUBOT/install/rplidar_ros', 'merge_install': False, 'path': '/home/dcubot/DCUBOT/src/rplidar_ros', 'symlink_install': True, 'test_result_base': None}
+[1.334s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[1.334s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_target' from command line to 'None'
+[1.334s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.334s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[1.334s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_clean_first' from command line to 'False'
+[1.334s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_force_configure' from command line to 'False'
+[1.335s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'ament_cmake_args' from command line to 'None'
+[1.335s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[1.335s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.335s] DEBUG:colcon.colcon_core.verb:Building package 'realsense2_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dcubot/DCUBOT/build/realsense2_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dcubot/DCUBOT/install/realsense2_camera', 'merge_install': False, 'path': '/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera', 'symlink_install': True, 'test_result_base': None}
+[1.335s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[1.335s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_target' from command line to 'None'
+[1.335s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.335s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.336s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.336s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.336s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.336s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.336s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.336s] DEBUG:colcon.colcon_core.verb:Building package 'realsense2_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dcubot/DCUBOT/build/realsense2_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dcubot/DCUBOT/install/realsense2_description', 'merge_install': False, 'path': '/home/dcubot/DCUBOT/src/realsense-ros/realsense2_description', 'symlink_install': True, 'test_result_base': None}
+[1.336s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.339s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.339s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs' with build type 'ament_cmake'
+[1.339s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs'
+[1.348s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.348s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.348s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.355s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dcubot/DCUBOT/src/powertrain' with build type 'ament_python'
+[1.355s] Level 1:colcon.colcon_core.shell:create_environment_hook('powertrain', 'ament_prefix_path')
+[1.355s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dcubot/DCUBOT/install/powertrain/share/powertrain/hook/ament_prefix_path.ps1'
+[1.358s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dcubot/DCUBOT/install/powertrain/share/powertrain/hook/ament_prefix_path.dsv'
+[1.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dcubot/DCUBOT/install/powertrain/share/powertrain/hook/ament_prefix_path.sh'
+[1.361s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.361s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.366s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dcubot/DCUBOT/src/rplidar_ros' with build type 'ament_cmake'
+[1.366s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dcubot/DCUBOT/src/rplidar_ros'
+[1.367s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.367s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.379s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dcubot/DCUBOT/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dcubot/DCUBOT/install/powertrain:/opt/ros/humble /usr/bin/cmake /home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dcubot/DCUBOT/install/realsense2_camera_msgs
+[1.940s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dcubot/DCUBOT/src/powertrain'
+[1.941s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.941s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.967s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dcubot/DCUBOT/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dcubot/DCUBOT/install/powertrain:/opt/ros/humble /usr/bin/cmake /home/dcubot/DCUBOT/src/rplidar_ros -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dcubot/DCUBOT/install/rplidar_ros
+[2.746s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dcubot/DCUBOT/build/powertrain': PYTHONPATH=/home/dcubot/DCUBOT/build/powertrain/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dcubot/DCUBOT/install/powertrain/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dcubot/DCUBOT/build/powertrain/build --no-deps symlink_data
+[3.761s] Level 1:colcon.colcon_core.shell:create_environment_hook('powertrain', 'pythonpath_develop')
+[3.761s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dcubot/DCUBOT/build/powertrain/share/powertrain/hook/pythonpath_develop.ps1'
+[3.762s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dcubot/DCUBOT/build/powertrain' returned '0': PYTHONPATH=/home/dcubot/DCUBOT/build/powertrain/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dcubot/DCUBOT/install/powertrain/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dcubot/DCUBOT/build/powertrain/build --no-deps symlink_data
+[3.763s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dcubot/DCUBOT/build/powertrain/share/powertrain/hook/pythonpath_develop.dsv'
+[3.764s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dcubot/DCUBOT/build/powertrain/share/powertrain/hook/pythonpath_develop.sh'
+[3.775s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/powertrain' for CMake module files
+[3.776s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/powertrain' for CMake config files
+[3.777s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/powertrain/lib'
+[3.778s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/powertrain/bin'
+[3.778s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/powertrain/lib/pkgconfig/powertrain.pc'
+[3.778s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/powertrain/lib/python3.10/site-packages'
+[3.778s] Level 1:colcon.colcon_core.shell:create_environment_hook('powertrain', 'pythonpath')
+[3.779s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dcubot/DCUBOT/install/powertrain/share/powertrain/hook/pythonpath.ps1'
+[3.780s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dcubot/DCUBOT/install/powertrain/share/powertrain/hook/pythonpath.dsv'
+[3.781s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dcubot/DCUBOT/install/powertrain/share/powertrain/hook/pythonpath.sh'
+[3.783s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/powertrain/bin'
+[3.783s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(powertrain)
+[3.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/dcubot/DCUBOT/install/powertrain/share/powertrain/package.ps1'
+[3.786s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dcubot/DCUBOT/install/powertrain/share/powertrain/package.dsv'
+[3.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/dcubot/DCUBOT/install/powertrain/share/powertrain/package.sh'
+[3.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/dcubot/DCUBOT/install/powertrain/share/powertrain/package.bash'
+[3.791s] INFO:colcon.colcon_core.shell:Creating package script '/home/dcubot/DCUBOT/install/powertrain/share/powertrain/package.zsh'
+[3.793s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dcubot/DCUBOT/install/powertrain/share/colcon-core/packages/powertrain)
+[4.673s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dcubot/DCUBOT/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dcubot/DCUBOT/install/powertrain:/opt/ros/humble /usr/bin/cmake /home/dcubot/DCUBOT/src/rplidar_ros -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dcubot/DCUBOT/install/rplidar_ros
+[4.678s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dcubot/DCUBOT/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dcubot/DCUBOT/install/powertrain:/opt/ros/humble /usr/bin/cmake --build /home/dcubot/DCUBOT/build/rplidar_ros -- -j6 -l6
+[5.514s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dcubot/DCUBOT/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dcubot/DCUBOT/install/powertrain:/opt/ros/humble /usr/bin/cmake /home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dcubot/DCUBOT/install/realsense2_camera_msgs
+[5.515s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dcubot/DCUBOT/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dcubot/DCUBOT/install/powertrain:/opt/ros/humble /usr/bin/cmake --build /home/dcubot/DCUBOT/build/realsense2_camera_msgs -- -j6 -l6
+[21.505s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dcubot/DCUBOT/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dcubot/DCUBOT/install/powertrain:/opt/ros/humble /usr/bin/cmake --build /home/dcubot/DCUBOT/build/realsense2_camera_msgs -- -j6 -l6
+[21.574s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dcubot/DCUBOT/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dcubot/DCUBOT/install/powertrain:/opt/ros/humble /usr/bin/cmake --install /home/dcubot/DCUBOT/build/realsense2_camera_msgs
+[26.176s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_camera_msgs)
+[26.177s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/realsense2_camera_msgs' for CMake module files
+[26.178s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dcubot/DCUBOT/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dcubot/DCUBOT/install/powertrain:/opt/ros/humble /usr/bin/cmake --install /home/dcubot/DCUBOT/build/realsense2_camera_msgs
+[26.179s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/realsense2_camera_msgs' for CMake config files
+[26.181s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera_msgs', 'cmake_prefix_path')
+[26.182s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dcubot/DCUBOT/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.ps1'
+[26.183s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dcubot/DCUBOT/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.dsv'
+[26.184s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dcubot/DCUBOT/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.sh'
+[26.186s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/realsense2_camera_msgs/lib'
+[26.186s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera_msgs', 'ld_library_path_lib')
+[26.187s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dcubot/DCUBOT/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.ps1'
+[26.188s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dcubot/DCUBOT/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.dsv'
+[26.189s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dcubot/DCUBOT/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.sh'
+[26.190s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/realsense2_camera_msgs/bin'
+[26.190s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/realsense2_camera_msgs/lib/pkgconfig/realsense2_camera_msgs.pc'
+[26.190s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/realsense2_camera_msgs/lib/python3.10/site-packages'
+[26.191s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/realsense2_camera_msgs/bin'
+[26.192s] INFO:colcon.colcon_core.shell:Creating package script '/home/dcubot/DCUBOT/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.ps1'
+[26.193s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dcubot/DCUBOT/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.dsv'
+[26.194s] INFO:colcon.colcon_core.shell:Creating package script '/home/dcubot/DCUBOT/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.sh'
+[26.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/dcubot/DCUBOT/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.bash'
+[26.196s] INFO:colcon.colcon_core.shell:Creating package script '/home/dcubot/DCUBOT/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.zsh'
+[26.197s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dcubot/DCUBOT/install/realsense2_camera_msgs/share/colcon-core/packages/realsense2_camera_msgs)
+[26.215s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_camera_msgs)
+[26.216s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/realsense2_camera_msgs' for CMake module files
+[26.218s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/realsense2_camera_msgs' for CMake config files
+[26.219s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera_msgs', 'cmake_prefix_path')
+[26.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dcubot/DCUBOT/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.ps1'
+[26.234s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dcubot/DCUBOT/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.dsv'
+[26.235s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dcubot/DCUBOT/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.sh'
+[26.237s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/realsense2_camera_msgs/lib'
+[26.237s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera_msgs', 'ld_library_path_lib')
+[26.238s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dcubot/DCUBOT/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.ps1'
+[26.242s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dcubot/DCUBOT/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.dsv'
+[26.243s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dcubot/DCUBOT/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.sh'
+[26.248s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/realsense2_camera_msgs/bin'
+[26.248s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/realsense2_camera_msgs/lib/pkgconfig/realsense2_camera_msgs.pc'
+[26.249s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/realsense2_camera_msgs/lib/python3.10/site-packages'
+[26.252s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/realsense2_camera_msgs/bin'
+[26.253s] INFO:colcon.colcon_core.shell:Creating package script '/home/dcubot/DCUBOT/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.ps1'
+[26.264s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dcubot/DCUBOT/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.dsv'
+[26.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/dcubot/DCUBOT/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.sh'
+[26.268s] INFO:colcon.colcon_core.shell:Creating package script '/home/dcubot/DCUBOT/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.bash'
+[26.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/dcubot/DCUBOT/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.zsh'
+[26.272s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dcubot/DCUBOT/install/realsense2_camera_msgs/share/colcon-core/packages/realsense2_camera_msgs)
+[26.277s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera' with build type 'ament_cmake'
+[26.278s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera'
+[26.278s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[26.279s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[26.315s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dcubot/DCUBOT/src/realsense-ros/realsense2_description' with build type 'ament_cmake'
+[26.316s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dcubot/DCUBOT/src/realsense-ros/realsense2_description'
+[26.317s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[26.317s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[26.367s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dcubot/DCUBOT/build/realsense2_camera': CMAKE_PREFIX_PATH=/home/dcubot/DCUBOT/install/realsense2_camera_msgs:/home/dcubot/DCUBOT/install/rplidar_ros:/home/dcubot/DCUBOT/install/realsense2_description:/home/dcubot/DCUBOT/install/realsense2_camera:/home/dcubot/DCUBOT/install/powertrain:/opt/ros/humble LD_LIBRARY_PATH=/home/dcubot/DCUBOT/install/realsense2_camera_msgs/lib:/home/dcubot/DCUBOT/install/realsense2_camera/lib:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake /home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dcubot/DCUBOT/install/realsense2_camera
+[26.395s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dcubot/DCUBOT/build/realsense2_description': CMAKE_PREFIX_PATH=/home/dcubot/DCUBOT/install/realsense2_camera_msgs:/home/dcubot/DCUBOT/install/rplidar_ros:/home/dcubot/DCUBOT/install/realsense2_description:/home/dcubot/DCUBOT/install/realsense2_camera:/home/dcubot/DCUBOT/install/powertrain:/opt/ros/humble LD_LIBRARY_PATH=/home/dcubot/DCUBOT/install/realsense2_camera_msgs/lib:/home/dcubot/DCUBOT/install/realsense2_camera/lib:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake /home/dcubot/DCUBOT/src/realsense-ros/realsense2_description -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dcubot/DCUBOT/install/realsense2_description
+[28.806s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dcubot/DCUBOT/build/realsense2_description' returned '0': CMAKE_PREFIX_PATH=/home/dcubot/DCUBOT/install/realsense2_camera_msgs:/home/dcubot/DCUBOT/install/rplidar_ros:/home/dcubot/DCUBOT/install/realsense2_description:/home/dcubot/DCUBOT/install/realsense2_camera:/home/dcubot/DCUBOT/install/powertrain:/opt/ros/humble LD_LIBRARY_PATH=/home/dcubot/DCUBOT/install/realsense2_camera_msgs/lib:/home/dcubot/DCUBOT/install/realsense2_camera/lib:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake /home/dcubot/DCUBOT/src/realsense-ros/realsense2_description -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dcubot/DCUBOT/install/realsense2_description
+[28.810s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dcubot/DCUBOT/build/realsense2_description': CMAKE_PREFIX_PATH=/home/dcubot/DCUBOT/install/realsense2_camera_msgs:/home/dcubot/DCUBOT/install/rplidar_ros:/home/dcubot/DCUBOT/install/realsense2_description:/home/dcubot/DCUBOT/install/realsense2_camera:/home/dcubot/DCUBOT/install/powertrain:/opt/ros/humble LD_LIBRARY_PATH=/home/dcubot/DCUBOT/install/realsense2_camera_msgs/lib:/home/dcubot/DCUBOT/install/realsense2_camera/lib:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --build /home/dcubot/DCUBOT/build/realsense2_description -- -j6 -l6
+[28.888s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dcubot/DCUBOT/build/realsense2_description' returned '0': CMAKE_PREFIX_PATH=/home/dcubot/DCUBOT/install/realsense2_camera_msgs:/home/dcubot/DCUBOT/install/rplidar_ros:/home/dcubot/DCUBOT/install/realsense2_description:/home/dcubot/DCUBOT/install/realsense2_camera:/home/dcubot/DCUBOT/install/powertrain:/opt/ros/humble LD_LIBRARY_PATH=/home/dcubot/DCUBOT/install/realsense2_camera_msgs/lib:/home/dcubot/DCUBOT/install/realsense2_camera/lib:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --build /home/dcubot/DCUBOT/build/realsense2_description -- -j6 -l6
+[28.892s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dcubot/DCUBOT/build/realsense2_description': CMAKE_PREFIX_PATH=/home/dcubot/DCUBOT/install/realsense2_camera_msgs:/home/dcubot/DCUBOT/install/rplidar_ros:/home/dcubot/DCUBOT/install/realsense2_description:/home/dcubot/DCUBOT/install/realsense2_camera:/home/dcubot/DCUBOT/install/powertrain:/opt/ros/humble LD_LIBRARY_PATH=/home/dcubot/DCUBOT/install/realsense2_camera_msgs/lib:/home/dcubot/DCUBOT/install/realsense2_camera/lib:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --install /home/dcubot/DCUBOT/build/realsense2_description
+[29.723s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_description)
+[29.724s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/realsense2_description' for CMake module files
+[29.726s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dcubot/DCUBOT/build/realsense2_description' returned '0': CMAKE_PREFIX_PATH=/home/dcubot/DCUBOT/install/realsense2_camera_msgs:/home/dcubot/DCUBOT/install/rplidar_ros:/home/dcubot/DCUBOT/install/realsense2_description:/home/dcubot/DCUBOT/install/realsense2_camera:/home/dcubot/DCUBOT/install/powertrain:/opt/ros/humble LD_LIBRARY_PATH=/home/dcubot/DCUBOT/install/realsense2_camera_msgs/lib:/home/dcubot/DCUBOT/install/realsense2_camera/lib:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --install /home/dcubot/DCUBOT/build/realsense2_description
+[29.727s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/realsense2_description' for CMake config files
+[29.727s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_description', 'cmake_prefix_path')
+[29.728s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dcubot/DCUBOT/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.ps1'
+[29.730s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dcubot/DCUBOT/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.dsv'
+[29.731s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dcubot/DCUBOT/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.sh'
+[29.732s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/realsense2_description/bin'
+[29.732s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/realsense2_description/lib/pkgconfig/realsense2_description.pc'
+[29.733s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/realsense2_description/lib/python3.10/site-packages'
+[29.735s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/realsense2_description/bin'
+[29.735s] INFO:colcon.colcon_core.shell:Creating package script '/home/dcubot/DCUBOT/install/realsense2_description/share/realsense2_description/package.ps1'
+[29.737s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dcubot/DCUBOT/install/realsense2_description/share/realsense2_description/package.dsv'
+[29.738s] INFO:colcon.colcon_core.shell:Creating package script '/home/dcubot/DCUBOT/install/realsense2_description/share/realsense2_description/package.sh'
+[29.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/dcubot/DCUBOT/install/realsense2_description/share/realsense2_description/package.bash'
+[29.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/dcubot/DCUBOT/install/realsense2_description/share/realsense2_description/package.zsh'
+[29.740s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dcubot/DCUBOT/install/realsense2_description/share/colcon-core/packages/realsense2_description)
+[29.742s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_description)
+[29.743s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/realsense2_description' for CMake module files
+[29.744s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/realsense2_description' for CMake config files
+[29.744s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_description', 'cmake_prefix_path')
+[29.745s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dcubot/DCUBOT/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.ps1'
+[29.747s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dcubot/DCUBOT/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.dsv'
+[29.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dcubot/DCUBOT/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.sh'
+[29.749s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/realsense2_description/bin'
+[29.749s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/realsense2_description/lib/pkgconfig/realsense2_description.pc'
+[29.750s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/realsense2_description/lib/python3.10/site-packages'
+[29.751s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/realsense2_description/bin'
+[29.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/dcubot/DCUBOT/install/realsense2_description/share/realsense2_description/package.ps1'
+[29.753s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dcubot/DCUBOT/install/realsense2_description/share/realsense2_description/package.dsv'
+[29.754s] INFO:colcon.colcon_core.shell:Creating package script '/home/dcubot/DCUBOT/install/realsense2_description/share/realsense2_description/package.sh'
+[29.755s] INFO:colcon.colcon_core.shell:Creating package script '/home/dcubot/DCUBOT/install/realsense2_description/share/realsense2_description/package.bash'
+[29.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/dcubot/DCUBOT/install/realsense2_description/share/realsense2_description/package.zsh'
+[29.757s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dcubot/DCUBOT/install/realsense2_description/share/colcon-core/packages/realsense2_description)
+[30.544s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dcubot/DCUBOT/build/realsense2_camera' returned '0': CMAKE_PREFIX_PATH=/home/dcubot/DCUBOT/install/realsense2_camera_msgs:/home/dcubot/DCUBOT/install/rplidar_ros:/home/dcubot/DCUBOT/install/realsense2_description:/home/dcubot/DCUBOT/install/realsense2_camera:/home/dcubot/DCUBOT/install/powertrain:/opt/ros/humble LD_LIBRARY_PATH=/home/dcubot/DCUBOT/install/realsense2_camera_msgs/lib:/home/dcubot/DCUBOT/install/realsense2_camera/lib:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake /home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dcubot/DCUBOT/install/realsense2_camera
+[30.547s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dcubot/DCUBOT/build/realsense2_camera': CMAKE_PREFIX_PATH=/home/dcubot/DCUBOT/install/realsense2_camera_msgs:/home/dcubot/DCUBOT/install/rplidar_ros:/home/dcubot/DCUBOT/install/realsense2_description:/home/dcubot/DCUBOT/install/realsense2_camera:/home/dcubot/DCUBOT/install/powertrain:/opt/ros/humble LD_LIBRARY_PATH=/home/dcubot/DCUBOT/install/realsense2_camera_msgs/lib:/home/dcubot/DCUBOT/install/realsense2_camera/lib:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --build /home/dcubot/DCUBOT/build/realsense2_camera -- -j6 -l6
+[41.446s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dcubot/DCUBOT/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dcubot/DCUBOT/install/powertrain:/opt/ros/humble /usr/bin/cmake --build /home/dcubot/DCUBOT/build/rplidar_ros -- -j6 -l6
+[41.458s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dcubot/DCUBOT/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dcubot/DCUBOT/install/powertrain:/opt/ros/humble /usr/bin/cmake --install /home/dcubot/DCUBOT/build/rplidar_ros
+[43.173s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[43.175s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/rplidar_ros' for CMake module files
+[43.176s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dcubot/DCUBOT/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dcubot/DCUBOT/install/powertrain:/opt/ros/humble /usr/bin/cmake --install /home/dcubot/DCUBOT/build/rplidar_ros
+[43.177s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/rplidar_ros' for CMake config files
+[43.177s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[43.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dcubot/DCUBOT/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[43.180s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dcubot/DCUBOT/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[43.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dcubot/DCUBOT/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[43.182s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/rplidar_ros/lib'
+[43.182s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/rplidar_ros/bin'
+[43.183s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[43.183s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/rplidar_ros/lib/python3.10/site-packages'
+[43.184s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/rplidar_ros/bin'
+[43.185s] INFO:colcon.colcon_core.shell:Creating package script '/home/dcubot/DCUBOT/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[43.186s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dcubot/DCUBOT/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[43.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/dcubot/DCUBOT/install/rplidar_ros/share/rplidar_ros/package.sh'
+[43.188s] INFO:colcon.colcon_core.shell:Creating package script '/home/dcubot/DCUBOT/install/rplidar_ros/share/rplidar_ros/package.bash'
+[43.189s] INFO:colcon.colcon_core.shell:Creating package script '/home/dcubot/DCUBOT/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[43.190s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dcubot/DCUBOT/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[43.200s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[43.200s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/rplidar_ros' for CMake module files
+[43.213s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/rplidar_ros' for CMake config files
+[43.215s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[43.215s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dcubot/DCUBOT/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[43.217s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dcubot/DCUBOT/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[43.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dcubot/DCUBOT/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[43.231s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/rplidar_ros/lib'
+[43.231s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/rplidar_ros/bin'
+[43.231s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[43.232s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/rplidar_ros/lib/python3.10/site-packages'
+[43.233s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/rplidar_ros/bin'
+[43.233s] INFO:colcon.colcon_core.shell:Creating package script '/home/dcubot/DCUBOT/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[43.242s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dcubot/DCUBOT/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[43.245s] INFO:colcon.colcon_core.shell:Creating package script '/home/dcubot/DCUBOT/install/rplidar_ros/share/rplidar_ros/package.sh'
+[43.249s] INFO:colcon.colcon_core.shell:Creating package script '/home/dcubot/DCUBOT/install/rplidar_ros/share/rplidar_ros/package.bash'
+[43.252s] INFO:colcon.colcon_core.shell:Creating package script '/home/dcubot/DCUBOT/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[43.256s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dcubot/DCUBOT/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[92.572s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dcubot/DCUBOT/build/realsense2_camera' returned '0': CMAKE_PREFIX_PATH=/home/dcubot/DCUBOT/install/realsense2_camera_msgs:/home/dcubot/DCUBOT/install/rplidar_ros:/home/dcubot/DCUBOT/install/realsense2_description:/home/dcubot/DCUBOT/install/realsense2_camera:/home/dcubot/DCUBOT/install/powertrain:/opt/ros/humble LD_LIBRARY_PATH=/home/dcubot/DCUBOT/install/realsense2_camera_msgs/lib:/home/dcubot/DCUBOT/install/realsense2_camera/lib:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --build /home/dcubot/DCUBOT/build/realsense2_camera -- -j6 -l6
+[92.578s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dcubot/DCUBOT/build/realsense2_camera': CMAKE_PREFIX_PATH=/home/dcubot/DCUBOT/install/realsense2_camera_msgs:/home/dcubot/DCUBOT/install/rplidar_ros:/home/dcubot/DCUBOT/install/realsense2_description:/home/dcubot/DCUBOT/install/realsense2_camera:/home/dcubot/DCUBOT/install/powertrain:/opt/ros/humble LD_LIBRARY_PATH=/home/dcubot/DCUBOT/install/realsense2_camera_msgs/lib:/home/dcubot/DCUBOT/install/realsense2_camera/lib:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --install /home/dcubot/DCUBOT/build/realsense2_camera
+[93.441s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_camera)
+[93.443s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/realsense2_camera' for CMake module files
+[93.445s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dcubot/DCUBOT/build/realsense2_camera' returned '0': CMAKE_PREFIX_PATH=/home/dcubot/DCUBOT/install/realsense2_camera_msgs:/home/dcubot/DCUBOT/install/rplidar_ros:/home/dcubot/DCUBOT/install/realsense2_description:/home/dcubot/DCUBOT/install/realsense2_camera:/home/dcubot/DCUBOT/install/powertrain:/opt/ros/humble LD_LIBRARY_PATH=/home/dcubot/DCUBOT/install/realsense2_camera_msgs/lib:/home/dcubot/DCUBOT/install/realsense2_camera/lib:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --install /home/dcubot/DCUBOT/build/realsense2_camera
+[93.447s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/realsense2_camera' for CMake config files
+[93.448s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera', 'cmake_prefix_path')
+[93.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dcubot/DCUBOT/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.ps1'
+[93.451s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dcubot/DCUBOT/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.dsv'
+[93.452s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dcubot/DCUBOT/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.sh'
+[93.455s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/realsense2_camera/lib'
+[93.455s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera', 'ld_library_path_lib')
+[93.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dcubot/DCUBOT/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.ps1'
+[93.457s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dcubot/DCUBOT/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.dsv'
+[93.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dcubot/DCUBOT/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.sh'
+[93.460s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/realsense2_camera/bin'
+[93.460s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/realsense2_camera/lib/pkgconfig/realsense2_camera.pc'
+[93.461s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/realsense2_camera/lib/python3.10/site-packages'
+[93.462s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/realsense2_camera/bin'
+[93.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/dcubot/DCUBOT/install/realsense2_camera/share/realsense2_camera/package.ps1'
+[93.465s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dcubot/DCUBOT/install/realsense2_camera/share/realsense2_camera/package.dsv'
+[93.467s] INFO:colcon.colcon_core.shell:Creating package script '/home/dcubot/DCUBOT/install/realsense2_camera/share/realsense2_camera/package.sh'
+[93.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/dcubot/DCUBOT/install/realsense2_camera/share/realsense2_camera/package.bash'
+[93.470s] INFO:colcon.colcon_core.shell:Creating package script '/home/dcubot/DCUBOT/install/realsense2_camera/share/realsense2_camera/package.zsh'
+[93.471s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dcubot/DCUBOT/install/realsense2_camera/share/colcon-core/packages/realsense2_camera)
+[93.474s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_camera)
+[93.474s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/realsense2_camera' for CMake module files
+[93.476s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/realsense2_camera' for CMake config files
+[93.478s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera', 'cmake_prefix_path')
+[93.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dcubot/DCUBOT/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.ps1'
+[93.481s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dcubot/DCUBOT/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.dsv'
+[93.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dcubot/DCUBOT/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.sh'
+[93.485s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/realsense2_camera/lib'
+[93.485s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera', 'ld_library_path_lib')
+[93.486s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dcubot/DCUBOT/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.ps1'
+[93.487s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dcubot/DCUBOT/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.dsv'
+[93.489s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dcubot/DCUBOT/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.sh'
+[93.490s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/realsense2_camera/bin'
+[93.491s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/realsense2_camera/lib/pkgconfig/realsense2_camera.pc'
+[93.491s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/realsense2_camera/lib/python3.10/site-packages'
+[93.493s] Level 1:colcon.colcon_core.environment:checking '/home/dcubot/DCUBOT/install/realsense2_camera/bin'
+[93.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/dcubot/DCUBOT/install/realsense2_camera/share/realsense2_camera/package.ps1'
+[93.496s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dcubot/DCUBOT/install/realsense2_camera/share/realsense2_camera/package.dsv'
+[93.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/dcubot/DCUBOT/install/realsense2_camera/share/realsense2_camera/package.sh'
+[93.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/dcubot/DCUBOT/install/realsense2_camera/share/realsense2_camera/package.bash'
+[93.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/dcubot/DCUBOT/install/realsense2_camera/share/realsense2_camera/package.zsh'
+[93.503s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dcubot/DCUBOT/install/realsense2_camera/share/colcon-core/packages/realsense2_camera)
+[93.505s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[93.506s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[93.506s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[93.507s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[93.542s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[93.543s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[93.543s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[93.605s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[93.606s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dcubot/DCUBOT/install/local_setup.ps1'
+[93.610s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dcubot/DCUBOT/install/_local_setup_util_ps1.py'
+[93.614s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dcubot/DCUBOT/install/setup.ps1'
+[93.619s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dcubot/DCUBOT/install/local_setup.sh'
+[93.622s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dcubot/DCUBOT/install/_local_setup_util_sh.py'
+[93.623s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dcubot/DCUBOT/install/setup.sh'
+[93.627s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dcubot/DCUBOT/install/local_setup.bash'
+[93.628s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dcubot/DCUBOT/install/setup.bash'
+[93.631s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dcubot/DCUBOT/install/local_setup.zsh'
+[93.633s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dcubot/DCUBOT/install/setup.zsh'

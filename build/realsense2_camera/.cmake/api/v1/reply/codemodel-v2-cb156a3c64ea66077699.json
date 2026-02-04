@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-1eb7b074e89363fdf31b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "realsense2_camera",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "realsense2_camera::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-realsense2_camera-Release-a82c38af3e6671d4342a.json",
+					"name" : "realsense2_camera",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "realsense2_camera_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-realsense2_camera_node-Release-feb258bedbe5a5bad20f.json",
+					"name" : "realsense2_camera_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "realsense2_camera_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-realsense2_camera_uninstall-Release-bf38f8e3b803f820690f.json",
+					"name" : "realsense2_camera_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-96ed7713cd6c83252613.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/dcubot/DCUBOT/build/realsense2_camera",
+		"source" : "/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

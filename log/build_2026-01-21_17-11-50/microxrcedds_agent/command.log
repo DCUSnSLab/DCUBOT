@@ -1,6 +1,0 @@
-Invoking command in '/home/dcubot/DCUBOT/build/microxrcedds_agent': /usr/bin/cmake /home/dcubot/DCUBOT/src/Micro-XRCE-DDS-Agent -DUAGENT_ISOLATED_INSTALL=OFF -DCMAKE_INSTALL_PREFIX=/home/dcubot/DCUBOT/install/microxrcedds_agent
-Invoked command in '/home/dcubot/DCUBOT/build/microxrcedds_agent' returned '0': /usr/bin/cmake /home/dcubot/DCUBOT/src/Micro-XRCE-DDS-Agent -DUAGENT_ISOLATED_INSTALL=OFF -DCMAKE_INSTALL_PREFIX=/home/dcubot/DCUBOT/install/microxrcedds_agent
-Invoking command in '/home/dcubot/DCUBOT/build/microxrcedds_agent': /usr/bin/cmake --build /home/dcubot/DCUBOT/build/microxrcedds_agent -- -j6 -l6
-Invoked command in '/home/dcubot/DCUBOT/build/microxrcedds_agent' returned '0': /usr/bin/cmake --build /home/dcubot/DCUBOT/build/microxrcedds_agent -- -j6 -l6
-Invoking command in '/home/dcubot/DCUBOT/build/microxrcedds_agent': /usr/bin/cmake --install /home/dcubot/DCUBOT/build/microxrcedds_agent
-Invoked command in '/home/dcubot/DCUBOT/build/microxrcedds_agent' returned '0': /usr/bin/cmake --install /home/dcubot/DCUBOT/build/microxrcedds_agent

@@ -343,8 +343,8 @@ ament_cmake_symlink_install_files("/home/dcubot/DCUBOT/src/realsense-ros/realsen
 # install(FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/realsense2_camera_msgs/environment")
 ament_cmake_symlink_install_files("/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs" FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/realsense2_camera_msgs/environment")
 
-# install(DIRECTORY "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/ament_cmake_python/realsense2_camera_msgs/realsense2_camera_msgs.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/realsense2_camera_msgs-4.57.0-py3.10.egg-info")
-ament_cmake_symlink_install_directory("/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs" DIRECTORY "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/ament_cmake_python/realsense2_camera_msgs/realsense2_camera_msgs.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/realsense2_camera_msgs-4.57.0-py3.10.egg-info")
+# install(DIRECTORY "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/ament_cmake_python/realsense2_camera_msgs/realsense2_camera_msgs.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/realsense2_camera_msgs-4.54.1-py3.10.egg-info")
+ament_cmake_symlink_install_directory("/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs" DIRECTORY "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/ament_cmake_python/realsense2_camera_msgs/realsense2_camera_msgs.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/realsense2_camera_msgs-4.54.1-py3.10.egg-info")
 
 # install(DIRECTORY "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_generator_py/realsense2_camera_msgs/" "DESTINATION" "local/lib/python3.10/dist-packages/realsense2_camera_msgs" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
 ament_cmake_symlink_install_directory("/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs" DIRECTORY "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_generator_py/realsense2_camera_msgs/" "DESTINATION" "local/lib/python3.10/dist-packages/realsense2_camera_msgs" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
@@ -367,41 +367,8 @@ ament_cmake_symlink_install_files("/home/dcubot/DCUBOT/src/realsense-ros/realsen
 # install(FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs/msg/Metadata.idl" "DESTINATION" "share/realsense2_camera_msgs/msg")
 ament_cmake_symlink_install_files("/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs" FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs/msg/Metadata.idl" "DESTINATION" "share/realsense2_camera_msgs/msg")
 
-# install(FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs/msg/RGBD.idl" "DESTINATION" "share/realsense2_camera_msgs/msg")
-ament_cmake_symlink_install_files("/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs" FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs/msg/RGBD.idl" "DESTINATION" "share/realsense2_camera_msgs/msg")
-
 # install(FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs/srv/DeviceInfo.idl" "DESTINATION" "share/realsense2_camera_msgs/srv")
 ament_cmake_symlink_install_files("/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs" FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs/srv/DeviceInfo.idl" "DESTINATION" "share/realsense2_camera_msgs/srv")
-
-# install(FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs/srv/SafetyPresetRead.idl" "DESTINATION" "share/realsense2_camera_msgs/srv")
-ament_cmake_symlink_install_files("/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs" FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs/srv/SafetyPresetRead.idl" "DESTINATION" "share/realsense2_camera_msgs/srv")
-
-# install(FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs/srv/SafetyPresetWrite.idl" "DESTINATION" "share/realsense2_camera_msgs/srv")
-ament_cmake_symlink_install_files("/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs" FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs/srv/SafetyPresetWrite.idl" "DESTINATION" "share/realsense2_camera_msgs/srv")
-
-# install(FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs/srv/SafetyInterfaceConfigRead.idl" "DESTINATION" "share/realsense2_camera_msgs/srv")
-ament_cmake_symlink_install_files("/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs" FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs/srv/SafetyInterfaceConfigRead.idl" "DESTINATION" "share/realsense2_camera_msgs/srv")
-
-# install(FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs/srv/SafetyInterfaceConfigWrite.idl" "DESTINATION" "share/realsense2_camera_msgs/srv")
-ament_cmake_symlink_install_files("/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs" FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs/srv/SafetyInterfaceConfigWrite.idl" "DESTINATION" "share/realsense2_camera_msgs/srv")
-
-# install(FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs/srv/CalibConfigRead.idl" "DESTINATION" "share/realsense2_camera_msgs/srv")
-ament_cmake_symlink_install_files("/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs" FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs/srv/CalibConfigRead.idl" "DESTINATION" "share/realsense2_camera_msgs/srv")
-
-# install(FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs/srv/CalibConfigWrite.idl" "DESTINATION" "share/realsense2_camera_msgs/srv")
-ament_cmake_symlink_install_files("/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs" FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs/srv/CalibConfigWrite.idl" "DESTINATION" "share/realsense2_camera_msgs/srv")
-
-# install(FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs/srv/ApplicationConfigRead.idl" "DESTINATION" "share/realsense2_camera_msgs/srv")
-ament_cmake_symlink_install_files("/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs" FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs/srv/ApplicationConfigRead.idl" "DESTINATION" "share/realsense2_camera_msgs/srv")
-
-# install(FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs/srv/ApplicationConfigWrite.idl" "DESTINATION" "share/realsense2_camera_msgs/srv")
-ament_cmake_symlink_install_files("/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs" FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs/srv/ApplicationConfigWrite.idl" "DESTINATION" "share/realsense2_camera_msgs/srv")
-
-# install(FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs/srv/HardwareMonitorCommandSend.idl" "DESTINATION" "share/realsense2_camera_msgs/srv")
-ament_cmake_symlink_install_files("/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs" FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs/srv/HardwareMonitorCommandSend.idl" "DESTINATION" "share/realsense2_camera_msgs/srv")
-
-# install(FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs/action/TriggeredCalibration.idl" "DESTINATION" "share/realsense2_camera_msgs/action")
-ament_cmake_symlink_install_files("/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs" FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs/action/TriggeredCalibration.idl" "DESTINATION" "share/realsense2_camera_msgs/action")
 
 # install(FILES "/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs/msg/IMUInfo.msg" "DESTINATION" "share/realsense2_camera_msgs/msg")
 ament_cmake_symlink_install_files("/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs" FILES "/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs/msg/IMUInfo.msg" "DESTINATION" "share/realsense2_camera_msgs/msg")
@@ -412,9 +379,6 @@ ament_cmake_symlink_install_files("/home/dcubot/DCUBOT/src/realsense-ros/realsen
 # install(FILES "/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs/msg/Metadata.msg" "DESTINATION" "share/realsense2_camera_msgs/msg")
 ament_cmake_symlink_install_files("/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs" FILES "/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs/msg/Metadata.msg" "DESTINATION" "share/realsense2_camera_msgs/msg")
 
-# install(FILES "/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs/msg/RGBD.msg" "DESTINATION" "share/realsense2_camera_msgs/msg")
-ament_cmake_symlink_install_files("/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs" FILES "/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs/msg/RGBD.msg" "DESTINATION" "share/realsense2_camera_msgs/msg")
-
 # install(FILES "/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs/srv/DeviceInfo.srv" "DESTINATION" "share/realsense2_camera_msgs/srv")
 ament_cmake_symlink_install_files("/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs" FILES "/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs/srv/DeviceInfo.srv" "DESTINATION" "share/realsense2_camera_msgs/srv")
 
@@ -423,90 +387,6 @@ ament_cmake_symlink_install_files("/home/dcubot/DCUBOT/src/realsense-ros/realsen
 
 # install(FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_cmake/srv/DeviceInfo_Response.msg" "DESTINATION" "share/realsense2_camera_msgs/srv")
 ament_cmake_symlink_install_files("/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs" FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_cmake/srv/DeviceInfo_Response.msg" "DESTINATION" "share/realsense2_camera_msgs/srv")
-
-# install(FILES "/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs/srv/SafetyPresetRead.srv" "DESTINATION" "share/realsense2_camera_msgs/srv")
-ament_cmake_symlink_install_files("/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs" FILES "/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs/srv/SafetyPresetRead.srv" "DESTINATION" "share/realsense2_camera_msgs/srv")
-
-# install(FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_cmake/srv/SafetyPresetRead_Request.msg" "DESTINATION" "share/realsense2_camera_msgs/srv")
-ament_cmake_symlink_install_files("/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs" FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_cmake/srv/SafetyPresetRead_Request.msg" "DESTINATION" "share/realsense2_camera_msgs/srv")
-
-# install(FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_cmake/srv/SafetyPresetRead_Response.msg" "DESTINATION" "share/realsense2_camera_msgs/srv")
-ament_cmake_symlink_install_files("/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs" FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_cmake/srv/SafetyPresetRead_Response.msg" "DESTINATION" "share/realsense2_camera_msgs/srv")
-
-# install(FILES "/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs/srv/SafetyPresetWrite.srv" "DESTINATION" "share/realsense2_camera_msgs/srv")
-ament_cmake_symlink_install_files("/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs" FILES "/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs/srv/SafetyPresetWrite.srv" "DESTINATION" "share/realsense2_camera_msgs/srv")
-
-# install(FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_cmake/srv/SafetyPresetWrite_Request.msg" "DESTINATION" "share/realsense2_camera_msgs/srv")
-ament_cmake_symlink_install_files("/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs" FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_cmake/srv/SafetyPresetWrite_Request.msg" "DESTINATION" "share/realsense2_camera_msgs/srv")
-
-# install(FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_cmake/srv/SafetyPresetWrite_Response.msg" "DESTINATION" "share/realsense2_camera_msgs/srv")
-ament_cmake_symlink_install_files("/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs" FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_cmake/srv/SafetyPresetWrite_Response.msg" "DESTINATION" "share/realsense2_camera_msgs/srv")
-
-# install(FILES "/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs/srv/SafetyInterfaceConfigRead.srv" "DESTINATION" "share/realsense2_camera_msgs/srv")
-ament_cmake_symlink_install_files("/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs" FILES "/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs/srv/SafetyInterfaceConfigRead.srv" "DESTINATION" "share/realsense2_camera_msgs/srv")
-
-# install(FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_cmake/srv/SafetyInterfaceConfigRead_Request.msg" "DESTINATION" "share/realsense2_camera_msgs/srv")
-ament_cmake_symlink_install_files("/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs" FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_cmake/srv/SafetyInterfaceConfigRead_Request.msg" "DESTINATION" "share/realsense2_camera_msgs/srv")
-
-# install(FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_cmake/srv/SafetyInterfaceConfigRead_Response.msg" "DESTINATION" "share/realsense2_camera_msgs/srv")
-ament_cmake_symlink_install_files("/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs" FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_cmake/srv/SafetyInterfaceConfigRead_Response.msg" "DESTINATION" "share/realsense2_camera_msgs/srv")
-
-# install(FILES "/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs/srv/SafetyInterfaceConfigWrite.srv" "DESTINATION" "share/realsense2_camera_msgs/srv")
-ament_cmake_symlink_install_files("/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs" FILES "/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs/srv/SafetyInterfaceConfigWrite.srv" "DESTINATION" "share/realsense2_camera_msgs/srv")
-
-# install(FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_cmake/srv/SafetyInterfaceConfigWrite_Request.msg" "DESTINATION" "share/realsense2_camera_msgs/srv")
-ament_cmake_symlink_install_files("/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs" FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_cmake/srv/SafetyInterfaceConfigWrite_Request.msg" "DESTINATION" "share/realsense2_camera_msgs/srv")
-
-# install(FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_cmake/srv/SafetyInterfaceConfigWrite_Response.msg" "DESTINATION" "share/realsense2_camera_msgs/srv")
-ament_cmake_symlink_install_files("/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs" FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_cmake/srv/SafetyInterfaceConfigWrite_Response.msg" "DESTINATION" "share/realsense2_camera_msgs/srv")
-
-# install(FILES "/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs/srv/CalibConfigRead.srv" "DESTINATION" "share/realsense2_camera_msgs/srv")
-ament_cmake_symlink_install_files("/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs" FILES "/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs/srv/CalibConfigRead.srv" "DESTINATION" "share/realsense2_camera_msgs/srv")
-
-# install(FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_cmake/srv/CalibConfigRead_Request.msg" "DESTINATION" "share/realsense2_camera_msgs/srv")
-ament_cmake_symlink_install_files("/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs" FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_cmake/srv/CalibConfigRead_Request.msg" "DESTINATION" "share/realsense2_camera_msgs/srv")
-
-# install(FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_cmake/srv/CalibConfigRead_Response.msg" "DESTINATION" "share/realsense2_camera_msgs/srv")
-ament_cmake_symlink_install_files("/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs" FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_cmake/srv/CalibConfigRead_Response.msg" "DESTINATION" "share/realsense2_camera_msgs/srv")
-
-# install(FILES "/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs/srv/CalibConfigWrite.srv" "DESTINATION" "share/realsense2_camera_msgs/srv")
-ament_cmake_symlink_install_files("/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs" FILES "/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs/srv/CalibConfigWrite.srv" "DESTINATION" "share/realsense2_camera_msgs/srv")
-
-# install(FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_cmake/srv/CalibConfigWrite_Request.msg" "DESTINATION" "share/realsense2_camera_msgs/srv")
-ament_cmake_symlink_install_files("/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs" FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_cmake/srv/CalibConfigWrite_Request.msg" "DESTINATION" "share/realsense2_camera_msgs/srv")
-
-# install(FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_cmake/srv/CalibConfigWrite_Response.msg" "DESTINATION" "share/realsense2_camera_msgs/srv")
-ament_cmake_symlink_install_files("/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs" FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_cmake/srv/CalibConfigWrite_Response.msg" "DESTINATION" "share/realsense2_camera_msgs/srv")
-
-# install(FILES "/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs/srv/ApplicationConfigRead.srv" "DESTINATION" "share/realsense2_camera_msgs/srv")
-ament_cmake_symlink_install_files("/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs" FILES "/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs/srv/ApplicationConfigRead.srv" "DESTINATION" "share/realsense2_camera_msgs/srv")
-
-# install(FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_cmake/srv/ApplicationConfigRead_Request.msg" "DESTINATION" "share/realsense2_camera_msgs/srv")
-ament_cmake_symlink_install_files("/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs" FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_cmake/srv/ApplicationConfigRead_Request.msg" "DESTINATION" "share/realsense2_camera_msgs/srv")
-
-# install(FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_cmake/srv/ApplicationConfigRead_Response.msg" "DESTINATION" "share/realsense2_camera_msgs/srv")
-ament_cmake_symlink_install_files("/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs" FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_cmake/srv/ApplicationConfigRead_Response.msg" "DESTINATION" "share/realsense2_camera_msgs/srv")
-
-# install(FILES "/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs/srv/ApplicationConfigWrite.srv" "DESTINATION" "share/realsense2_camera_msgs/srv")
-ament_cmake_symlink_install_files("/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs" FILES "/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs/srv/ApplicationConfigWrite.srv" "DESTINATION" "share/realsense2_camera_msgs/srv")
-
-# install(FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_cmake/srv/ApplicationConfigWrite_Request.msg" "DESTINATION" "share/realsense2_camera_msgs/srv")
-ament_cmake_symlink_install_files("/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs" FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_cmake/srv/ApplicationConfigWrite_Request.msg" "DESTINATION" "share/realsense2_camera_msgs/srv")
-
-# install(FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_cmake/srv/ApplicationConfigWrite_Response.msg" "DESTINATION" "share/realsense2_camera_msgs/srv")
-ament_cmake_symlink_install_files("/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs" FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_cmake/srv/ApplicationConfigWrite_Response.msg" "DESTINATION" "share/realsense2_camera_msgs/srv")
-
-# install(FILES "/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs/srv/HardwareMonitorCommandSend.srv" "DESTINATION" "share/realsense2_camera_msgs/srv")
-ament_cmake_symlink_install_files("/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs" FILES "/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs/srv/HardwareMonitorCommandSend.srv" "DESTINATION" "share/realsense2_camera_msgs/srv")
-
-# install(FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_cmake/srv/HardwareMonitorCommandSend_Request.msg" "DESTINATION" "share/realsense2_camera_msgs/srv")
-ament_cmake_symlink_install_files("/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs" FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_cmake/srv/HardwareMonitorCommandSend_Request.msg" "DESTINATION" "share/realsense2_camera_msgs/srv")
-
-# install(FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_cmake/srv/HardwareMonitorCommandSend_Response.msg" "DESTINATION" "share/realsense2_camera_msgs/srv")
-ament_cmake_symlink_install_files("/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs" FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/rosidl_cmake/srv/HardwareMonitorCommandSend_Response.msg" "DESTINATION" "share/realsense2_camera_msgs/srv")
-
-# install(FILES "/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs/action/TriggeredCalibration.action" "DESTINATION" "share/realsense2_camera_msgs/action")
-ament_cmake_symlink_install_files("/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs" FILES "/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs/action/TriggeredCalibration.action" "DESTINATION" "share/realsense2_camera_msgs/action")
 
 # install(FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/realsense2_camera_msgs" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/dcubot/DCUBOT/src/realsense-ros/realsense2_camera_msgs" FILES "/home/dcubot/DCUBOT/build/realsense2_camera_msgs/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/realsense2_camera_msgs" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
