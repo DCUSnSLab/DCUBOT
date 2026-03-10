@@ -1,0 +1,7 @@
+alias ino-cp='arduino-cli compile --fqbn per1234:sam:arduino_due_x'
+alias ino-ul='arduino-cli upload -p /dev/ttyACM0 --fqbn per1234:sam:arduino_due_x'
+alias ino-sm='arduino-cli monitor -p /dev/ttyACM0 --config 9600'
+alias bs='source ~/.bashrc'
+alias rs='source /opt/ros/humble/setup.bash'
+alias ws='source ~/DCUBOT/install/setup.bash'
+alias as='source /opt/ros/humble/setup.bash;source ~/.bashrc;source ~/DCUBOT/install/setup.bash'
